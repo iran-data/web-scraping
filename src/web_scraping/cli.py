@@ -44,12 +44,10 @@ def build_parser() -> argparse.ArgumentParser:
         default="all",
     )
 
-    tickets = subparsers.add_parser(
-        "tickets", help="search Safarmarket flight, train, or bus tickets"
-    )
+    tickets = subparsers.add_parser("tickets", help="search flight, train, or bus tickets")
     tickets.add_argument("mode", choices=[item.value for item in TransportMode])
-    tickets.add_argument("origin", help="Safarmarket city/airport/station identifier")
-    tickets.add_argument("destination", help="Safarmarket city/airport/station identifier")
+    tickets.add_argument("origin", help="provider city, airport, or station identifier")
+    tickets.add_argument("destination", help="provider city, airport, or station identifier")
     tickets.add_argument("departure_date", type=date.fromisoformat, metavar="YYYY-MM-DD")
     tickets.add_argument("--return-date", type=date.fromisoformat)
     tickets.add_argument("--adults", type=int, default=1)
@@ -70,7 +68,8 @@ async def run(args: argparse.Namespace) -> object:
         session_path=args.session,
     )
     if args.command == "tickets":
-        source = create_source("safarmarket", config)
+        source_name = "safar724" if args.mode == TransportMode.BUS.value else "safarmarket"
+        source = create_source(source_name, config)
         from web_scraping.transportation import TransportationSource
 
         if not isinstance(source, TransportationSource):

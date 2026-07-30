@@ -107,12 +107,16 @@ async with BamaAdapter() as bama:
 `TransportationSource.search_tickets(query)` dispatches by `TransportMode`. The explicit
 `search_flights`, `search_trains`, and `search_buses` methods are also public.
 
+Use `create_source("safarmarket")` for flight/train queries and
+`create_source("safar724")` for bus queries. The CLI performs this provider selection
+automatically.
+
 ### `TicketSearchQuery`
 
 | Field | Default | Meaning |
 | --- | --- | --- |
 | `mode` | required | `flight`, `train`, or `bus` |
-| `origin`, `destination` | required | Source-native code or ID |
+| `origin`, `destination` | required | Source-native code/ID; Safar724 also accepts slugs/names |
 | `departure_date` | required | Gregorian `date` |
 | `return_date` | `None` | Optional Gregorian return date |
 | `adults` | `1` | Must be at least one |

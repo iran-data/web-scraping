@@ -98,8 +98,20 @@ async def main() -> None:
 asyncio.run(main())
 ```
 
-Use a future date when running this example. See [Source support](sites.md#safarmarket) for
-known IDs and the bus limitation.
+For buses, select the Safar724 source and use bus city codes, slugs, or Persian names:
+
+```python
+source = create_source("safar724")
+query = TicketSearchQuery(
+    mode=TransportMode.BUS,
+    origin="tehran",
+    destination="mashhad",
+    departure_date=date(2026, 8, 14),
+)
+```
+
+Use a future date when running these examples. See [Safarmarket](sites.md#safarmarket) and
+[Safar724](sites.md#safar724) for inspected identifiers and contracts.
 
 ## First CLI searches
 
@@ -108,6 +120,7 @@ uv run web-scraping search digikala "هدفون" --page 1 --sort cheapest
 uv run web-scraping product digikala 22258282
 uv run web-scraping tickets flight THR MHD 2026-08-05
 uv run web-scraping tickets train 1 2 2026-08-05
+uv run web-scraping tickets bus tehran mashhad 2026-08-14
 ```
 
 All command results are JSON encoded as UTF-8.

@@ -93,6 +93,12 @@ def test_cli_parser_exposes_commerce_and_bama_price_commands() -> None:
     assert prices.keyword == "پژو"
     assert prices.type == "factory"
 
+    tickets = build_parser().parse_args(["tickets", "bus", "tehran", "mashhad", "2026-08-14"])
+    assert tickets.command == "tickets"
+    assert tickets.mode == "bus"
+    assert tickets.origin == "tehran"
+    assert tickets.destination == "mashhad"
+
 
 @pytest.mark.asyncio
 async def test_cli_run_dispatches_search_and_product(monkeypatch: pytest.MonkeyPatch) -> None:

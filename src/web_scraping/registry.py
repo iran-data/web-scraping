@@ -9,6 +9,7 @@ from web_scraping.adapters.base import CommerceAdapter
 from web_scraping.adapters.digikala import DigikalaAdapter
 from web_scraping.adapters.digikalajet import DigikalaJetAdapter
 from web_scraping.adapters.hamrah_mechanic import HamrahMechanicAdapter
+from web_scraping.adapters.safar724 import Safar724Adapter
 from web_scraping.adapters.safarmarket import SafarmarketAdapter
 from web_scraping.adapters.snappmarket import SnappMarketAdapter
 from web_scraping.adapters.snappshop import SnappShopAdapter
@@ -24,6 +25,7 @@ _SOURCES: dict[str, type[BaseSource]] = {
     "digikala": DigikalaAdapter,
     "digikalajet": DigikalaJetAdapter,
     "hamrahmechanic": HamrahMechanicAdapter,
+    "safar724": Safar724Adapter,
     "safarmarket": SafarmarketAdapter,
     "snappmarket": SnappMarketAdapter,
     "snappshop": SnappShopAdapter,

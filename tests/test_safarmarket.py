@@ -35,11 +35,10 @@ def test_transportation_registry_and_capabilities() -> None:
     source = create_source("safarmarket")
     assert isinstance(source, TransportationSource)
     assert source.category == SourceCategory.TRANSPORTATION
-    assert supported_sources(SourceCategory.TRANSPORTATION) == ("safarmarket",)
+    assert supported_sources(SourceCategory.TRANSPORTATION) == ("safar724", "safarmarket")
     assert source.capabilities == {
         SourceCapability.FLIGHT_SEARCH,
         SourceCapability.TRAIN_SEARCH,
-        SourceCapability.BUS_SEARCH,
     }
 
 
@@ -66,9 +65,6 @@ def test_search_url_contracts() -> None:
     assert SafarmarketAdapter.train_search_url(query(TransportMode.TRAIN)) == (
         "https://safarmarket.com/trains/1-2/2026-08-05/0/"
         "1adults/0children/0infants/non_coupe/NORMAL"
-    )
-    assert "departure-date=1405-05-14" in SafarmarketAdapter.bus_search_url(
-        query(TransportMode.BUS)
     )
 
 

@@ -1,0 +1,39 @@
+{
+  "date": "1405-05-23",
+  "originPersianName": "تهران",
+  "originEnglishName": "tehran",
+  "originCode": "11320000",
+  "destinationPersianName": "مشهد",
+  "destinationEnglishName": "mashhad",
+  "destinationCode": "31310000",
+  "today": "1405/05/09",
+  "items": [
+    {
+      "id": 39187726,
+      "isVip": true,
+      "busType": "وی آی پی 29 نفره صندلی تخت شو",
+      "price": 13155000,
+      "companyCode": "SE11215",
+      "originTerminalPersianName": "جنوب (خزانه)",
+      "destinationTerminalPersianName": "امام رضا",
+      "companyPersianName": "تعاونی 12 گیتی نورد",
+      "departureTime": "06:00",
+      "departureDate": "1405/05/23",
+      "availableSeatCount": 23,
+      "discountPercentage": 0,
+      "vehicleType": "Bus",
+      "status": "Available",
+      "facilities": ["شارژر"],
+      "refundRules": [
+        {
+          "from": null,
+          "to": "-01:00:00",
+          "percent": 10,
+          "message": "تا ۱ ساعت قبل حرکت"
+        }
+      ],
+      "capacity": 23,
+      "isSpecialCharter": false
+    }
+  ]
+}

@@ -1,19 +1,18 @@
-"""Safarmarket flight, train, and bus ticket source."""
+"""Safarmarket flight and train ticket source."""
 
 from __future__ import annotations
 
 from collections.abc import Mapping, Sequence
-from datetime import date, datetime, timedelta
+from datetime import datetime, timedelta
 from decimal import Decimal
 from typing import Any
-from urllib.parse import urlencode
 
 from playwright.async_api import Response
 
 from web_scraping.exceptions import (
     LayoutChangedError,
     NavigationError,
-    UpstreamUnavailableError,
+    UnsupportedFeatureError,
 )
 from web_scraping.models import (
     TicketOffer,
@@ -34,7 +33,6 @@ class SafarmarketAdapter(TransportationSource):
         {
             SourceCapability.FLIGHT_SEARCH,
             SourceCapability.TRAIN_SEARCH,
-            SourceCapability.BUS_SEARCH,
         }
     )
 
@@ -68,25 +66,9 @@ class SafarmarketAdapter(TransportationSource):
         return TicketSearchResult(query, items, url, len(items))
 
     async def search_buses(self, query: TicketSearchQuery) -> TicketSearchResult:
-        """Follow Safarmarket's bus hand-off and report its current broken provider route."""
-        self._require_mode(query, TransportMode.BUS)
-        url = self.bus_search_url(query)
-        page = await self.session.new_page()
-        try:
-
-            async def operation() -> Response | None:
-                return await page.goto(url, wait_until="domcontentloaded")
-
-            response = await self.session.run(
-                operation, operation_name="safarmarket_bus_handoff", url=url
-            )
-            status = response.status if response is not None else None
-            raise UpstreamUnavailableError(
-                "Safarmarket currently delegates bus search to Ghasedak24, but that "
-                f"provider route does not expose ticket results (HTTP {status or 'unknown'})."
-            )
-        finally:
-            await page.close()
+        raise UnsupportedFeatureError(
+            "Safarmarket bus search is not supported; use the Safar724 transportation source"
+        )
 
     async def _capture_json(self, url: str, endpoint: str) -> Mapping[str, Any]:
         page = await self.session.new_page()
@@ -134,17 +116,6 @@ class SafarmarketAdapter(TransportationSource):
             f"{query.departure_date.isoformat()}/{return_date}/{query.adults}adults/"
             f"{query.children}children/{query.infants}infants/{coupe}/{query.ticket_type}"
         )
-
-    @classmethod
-    def bus_search_url(cls, query: TicketSearchQuery) -> str:
-        params = urlencode(
-            {
-                "departure-date": _gregorian_to_jalali(query.departure_date),
-                "adult": query.adults,
-                "child": query.children,
-            }
-        )
-        return f"https://ghasedak24.com/bus-ticket/{query.origin}-{query.destination}?{params}"
 
     @classmethod
     def parse_flight(cls, data: Mapping[str, Any]) -> TicketOffer:
@@ -308,31 +279,3 @@ def _time_on_or_after(departure: datetime, value: object) -> datetime | None:
 
 def _sequence_length(value: object) -> int | None:
     return len(value) if isinstance(value, Sequence) and not isinstance(value, str) else None
-
-
-def _gregorian_to_jalali(value: date) -> str:
-    """Convert a Gregorian date to the numeric Jalali format used by the bus hand-off."""
-    gy, gm, gd = value.year, value.month, value.day
-    g_days = [0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334]
-    gy2 = gy + 1 if gm > 2 else gy
-    days = (
-        355666
-        + 365 * gy
-        + (gy2 + 3) // 4
-        - (gy2 + 99) // 100
-        + (gy2 + 399) // 400
-        + gd
-        + g_days[gm - 1]
-    )
-    jy = -1595 + 33 * (days // 12053)
-    days %= 12053
-    jy += 4 * (days // 1461)
-    days %= 1461
-    if days > 365:
-        jy += (days - 1) // 365
-        days = (days - 1) % 365
-    if days < 186:
-        jm, jd = 1 + days // 31, 1 + days % 31
-    else:
-        jm, jd = 7 + (days - 186) // 30, 1 + (days - 186) % 30
-    return f"{jy:04d}-{jm:02d}-{jd:02d}"

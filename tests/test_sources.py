@@ -16,7 +16,7 @@ def test_generic_source_registry_exposes_categories() -> None:
         SourceCategory.TRANSPORTATION,
         SourceCategory.OTHER,
     )
-    assert set(supported_sources()) == {*supported_shops(), "safarmarket"}
+    assert set(supported_sources()) == {*supported_shops(), "safar724", "safarmarket"}
     assert supported_sources(SourceCategory.COMMERCE) == supported_shops()
     source = create_source("digikala")
     assert isinstance(source, BaseSource)

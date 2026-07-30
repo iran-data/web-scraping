@@ -100,9 +100,16 @@ Bus search:
 uv run web-scraping tickets bus 11320000 31310000 2026-08-05
 ```
 
-Safarmarket currently delegates bus searches to a broken external route. Until the upstream
-provider repairs it, this command raises `UpstreamUnavailableError` rather than returning
-fabricated or empty results.
+Bus mode uses Safar724. Origin and destination may be Safar724 city codes, English slugs, or
+exact Persian city names:
+
+```bash
+uv run web-scraping tickets bus tehran mashhad 2026-08-14
+uv run web-scraping tickets bus تهران مشهد 2026-08-14
+```
+
+The adapter resolves the inputs against Safar724's public city catalog before navigating its
+normal rendered route page.
 
 ## Challenges and sessions
 

@@ -134,17 +134,21 @@ async def test_live_bama_reference_price_contract() -> None:
 
 @pytest.mark.integration
 @pytest.mark.parametrize(
-    ("mode", "origin", "destination"),
+    ("source_name", "mode", "origin", "destination"),
     [
-        (TransportMode.FLIGHT, "THR", "MHD"),
-        (TransportMode.TRAIN, "1", "2"),
+        ("safarmarket", TransportMode.FLIGHT, "THR", "MHD"),
+        ("safarmarket", TransportMode.TRAIN, "1", "2"),
+        ("safar724", TransportMode.BUS, "11320000", "31310000"),
     ],
 )
-async def test_live_safarmarket_ticket_contract(
-    mode: TransportMode, origin: str, destination: str
+async def test_live_transportation_ticket_contract(
+    source_name: str,
+    mode: TransportMode,
+    origin: str,
+    destination: str,
 ) -> None:
-    if os.getenv("LIVE_SITE") not in {"all", "safarmarket"}:
-        pytest.skip("set LIVE_SITE=all or LIVE_SITE=safarmarket")
+    if os.getenv("LIVE_SITE") not in {"all", source_name}:
+        pytest.skip(f"set LIVE_SITE=all or LIVE_SITE={source_name}")
 
     from web_scraping.transportation import TransportationSource
 
@@ -156,7 +160,7 @@ async def test_live_safarmarket_ticket_contract(
         concurrency=1,
         requests_per_second=0.25,
     )
-    source = create_source("safarmarket", config)
+    source = create_source(source_name, config)
     assert isinstance(source, TransportationSource)
     query = TicketSearchQuery(
         mode=mode,
@@ -168,11 +172,11 @@ async def test_live_safarmarket_ticket_contract(
         result = await source.search_tickets(query)
 
     assert result.query == query
-    assert result.search_url.startswith("https://safarmarket.com/")
+    assert result.search_url.startswith(f"https://{source_name}.com/")
     assert result.items
     assert result.total == len(result.items)
     for offer in result.items:
-        assert offer.source == "safarmarket"
+        assert offer.source == source_name
         assert offer.mode == mode
         assert offer.identifier
         assert offer.origin

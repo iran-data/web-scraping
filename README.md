@@ -12,9 +12,8 @@ commerce category provides normalized product and vehicle data from:
 - Bama
 - Hamrah Mechanic
 
-The transportation category currently provides Safarmarket flight and train offers. Its bus
-entry point is implemented, but Safarmarket's current Ghasedak24 hand-off is unavailable; see
-[limitations](#limitations).
+The transportation category provides Safarmarket flight/train offers and Safar724 intercity bus
+offers.
 
 ## Documentation
 
@@ -42,7 +41,8 @@ workflows.
 | Torob | Commerce | Yes | Yes | Offer aggregation and price sorts | Yes |
 | Bama | Commerce | Yes | Yes | Market/factory/agency reference prices | Yes |
 | Hamrah Mechanic | Commerce | Yes | Yes | Vehicle listings and metadata | Yes |
-| Safarmarket | Transportation | Flight/train | Offer details | Bus provider route broken | Yes |
+| Safarmarket | Transportation | Flight/train | Offer details | Native rendered search flow | Yes |
+| Safar724 | Transportation | Bus | Offer details | City code, slug, or Persian name | Yes |
 
 “Yes” means the behavior is backed by fixture tests and an inspected contract. It is not a
 guarantee of permanent upstream availability. Partial and blocked states intentionally raise
@@ -157,11 +157,12 @@ uv run web-scraping --visible --session playwright/.auth/shop.json \
 
 Results are UTF-8 JSON on stdout. Structured logs go through Python logging.
 
-### Safarmarket tickets
+### Transportation tickets
 
-Use Safarmarket's identifiers: flight city/airport codes (`THR`, `MHD`), train station IDs
-(`1` Tehran, `2` Mashhad, `3` Shiraz, `4` Isfahan), and bus city IDs (`11320000` Tehran,
-`31310000` Mashhad). Dates supplied to Python and the CLI are Gregorian ISO dates.
+Use Safarmarket's identifiers for flights and trains: flight city/airport codes (`THR`, `MHD`)
+and train station IDs (`1` Tehran, `2` Mashhad, `3` Shiraz, `4` Isfahan). Safar724 bus searches
+accept its city code, English slug, or exact Persian city name; examples include `11320000`,
+`tehran`, and `تهران`. Dates supplied to Python and the CLI are Gregorian ISO dates.
 
 ```python
 from datetime import date
@@ -181,7 +182,7 @@ async with source:
     results = await source.search_tickets(query)
 ```
 
-Prices are normalized from Safarmarket's rial API values to toman (`IRT`). Offers also include
+Safarmarket and Safar724 rial API prices are normalized to toman (`IRT`). Offers also include
 departure/arrival times, operator, service number, availability, remaining seats, provider,
 class, duration, stops, booking URL, and source-specific metadata.
 
@@ -296,8 +297,9 @@ minimum tests, security rules, and a review checklist.
 - Bama and Hamrah Mechanic are vehicle-listing sources. Retail-only fields such as rating and
   review count are generally unavailable; year, mileage, location, transmission, and condition
   are returned in `metadata`.
-- Safarmarket flight and train searches require source-native route IDs. The bus flow currently
-  raises `UpstreamUnavailableError` because Safarmarket's external provider route is broken.
+- Safarmarket flight and train searches require source-native route IDs. Safar724 bus searches
+  resolve source-native city codes, English slugs, and exact Persian city names through its
+  public city catalog.
 - Neither vehicle site exposes a verified general free-text listing API. Keyword matching is
   therefore applied to the listings on each requested page; use `iter_search()` for multiple
   pages and pass native query filters where known.

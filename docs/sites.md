@@ -125,13 +125,30 @@ Inspection date: 2026-07-30. The JSON reports in `docs/inspections/` were produc
 - Common train station IDs observed from the site's first-party station data include Tehran `1`,
   Mashhad `2`, Shiraz `3`, and Isfahan `4`. Flight examples include Tehran `THR` and Mashhad
   `MHD`.
-- Safarmarket's bus form currently redirects to a Ghasedak24 route. That route returned HTTP 404
-  during inspection and exposes no ticket result contract. `search_buses()` follows the
-  documented hand-off but raises `UpstreamUnavailableError` clearly until the provider repairs
-  it; it does not fabricate offers.
+- Safarmarket's bus form redirects to a separate provider and is not advertised as a Safarmarket
+  capability. Bus searches use the dedicated Safar724 source below.
 - Safarmarket's own browser application performs its normal first-party lightweight verification
   before requesting flight/train results. The adapter navigates the public result page and
   captures that response; it does not solve or bypass CAPTCHAs.
+
+## Safar724
+
+- The public city catalog is `GET /route/getcities`. Each city includes a numeric route code,
+  English slug, Persian name, province, and search expressions. The adapter accepts the code,
+  slug, or exact Persian name.
+- The normal rendered result route is
+  `/bus/{origin-slug}-{destination-slug}?date={jalali-date}`. Callers supply a Gregorian Python
+  `date`; the adapter converts it to Safar724's Jalali route format.
+- The rendered page requests
+  `https://service.safar724.com/cs/api/bus/route?Date=...&Destination=...&Origin=...`.
+  The adapter captures this browser-initiated response rather than replaying an inferred
+  endpoint.
+- Each service contains a stable numeric ID, company, origin/destination terminals, departure
+  date/time, vehicle type, VIP/class description, status, capacity, available seats, facilities,
+  refund rules, discount, and price.
+- API and visible prices are rial. They are divided by 10 and returned as toman (`IRT`).
+- The inspected Tehran–Mashhad search returned HTTP 200 and rendered purchasable services. No
+  CAPTCHA was observed.
 
 Search layouts and internal APIs can change without notice. A missing known contract raises
 `LayoutChangedError`; update the corresponding fixture and parser only after a new inspection.
