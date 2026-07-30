@@ -1,0 +1,69 @@
+{
+  "status": true,
+  "metadata": {
+    "last_update": "دیروز"
+  },
+  "data": [
+    {
+      "brand": "peugeot",
+      "brand_fa": "پژو",
+      "items_count": 2,
+      "items": [
+        {
+          "id": 11581,
+          "brand": "peugeot",
+          "brand_fa": "پژو",
+          "model": "207",
+          "model_fa": "207",
+          "trim": "tu3mt",
+          "trim_fa": "TU3",
+          "model_year": 1405,
+          "class": "ایران خودرو",
+          "price": 1502000000,
+          "price_diff": 0,
+          "price_date": "دیروز",
+          "price_provider": "قیمت کارخانه",
+          "car_price_id": 11581014053,
+          "price_type": {
+            "value": "FactoryPrice",
+            "display_name": "قیمت کارخانه"
+          },
+          "company": {
+            "value": "iran-khodro",
+            "display_name": "ایران خودرو"
+          },
+          "manufacture_type": {
+            "value": "Iranian",
+            "display_name": "داخلی"
+          }
+        },
+        {
+          "id": 11279,
+          "brand": "peugeot",
+          "brand_fa": "پژو",
+          "model": "207",
+          "model_fa": "207",
+          "trim": "tu3mt",
+          "trim_fa": "TU3",
+          "model_year": 1404,
+          "price": 1580000000,
+          "price_diff": 0.64,
+          "price_date": "دیروز",
+          "car_price_id": 11279014041,
+          "price_type": {
+            "value": "MarketPrice",
+            "display_name": "قیمت بازار"
+          },
+          "company": {
+            "value": "iran-khodro",
+            "display_name": "ایران خودرو"
+          },
+          "manufacture_type": {
+            "value": "Iranian",
+            "display_name": "داخلی"
+          }
+        }
+      ]
+    }
+  ]
+}

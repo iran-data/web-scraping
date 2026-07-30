@@ -1,0 +1,14 @@
+{
+  "items": [{
+    "id": 9703920,
+    "title": "شیر کم چرب تازه ماهشام",
+    "price": 138500,
+    "discount": 20775,
+    "discountRatio": 15,
+    "images": [{"main": "https://example.test/snapp.jpg"}]
+  }],
+  "total": 11,
+  "pagination": {"page": 0, "size": 10},
+  "status": true,
+  "code": 200
+}

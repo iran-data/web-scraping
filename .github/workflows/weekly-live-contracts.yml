@@ -1,0 +1,60 @@
+name: Weekly live website contracts
+
+on:
+  schedule:
+    - cron: "17 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: weekly-live-website-contracts
+  cancel-in-progress: false
+
+jobs:
+  quality:
+    name: Offline quality gates
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - run: uv python install 3.12
+      - run: uv sync --all-groups --locked
+      - run: uv run ruff format --check .
+      - run: uv run ruff check .
+      - run: uv run mypy
+      - run: uv run pytest -m "not integration"
+
+  live-contracts:
+    name: Live Playwright contracts
+    needs: quality
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      LIVE_SITE: all
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - run: uv python install 3.12
+      - run: uv sync --all-groups --locked
+      - run: uv run playwright install --with-deps chromium
+      - name: Test all active website contracts
+        run: |
+          mkdir -p test-results
+          uv run pytest tests/integration -m integration -vv \
+            --no-cov \
+            --junitxml=test-results/live-contracts.xml
+      - name: Upload live contract report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: live-contract-report-${{ github.run_id }}
+          path: test-results/live-contracts.xml
+          if-no-files-found: warn
+          retention-days: 30

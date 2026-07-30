@@ -1,0 +1,61 @@
+[project]
+name = "web-scraping"
+version = "0.1.0"
+description = "Async, adapter-based Playwright scrapers for Iranian web sources"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+  { name = "Iranian Shops contributors" },
+  { name = "alefvanoon" },
+]
+dependencies = [
+  "playwright>=1.48,<2",
+  "structlog>=24.4,<26",
+]
+
+[project.optional-dependencies]
+dev = [
+  "mypy>=1.13,<2",
+  "pytest>=8.3,<9",
+  "pytest-asyncio>=0.24,<1",
+  "pytest-cov>=6,<7",
+  "ruff>=0.8,<1",
+]
+
+[project.scripts]
+web-scraping = "web_scraping.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/web_scraping"]
+
+[tool.pytest.ini_options]
+addopts = "-ra --strict-markers --cov=web_scraping --cov-report=term-missing --cov-fail-under=70"
+asyncio_mode = "auto"
+testpaths = ["tests"]
+markers = ["integration: live browser/network tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "ASYNC", "RUF"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+packages = ["web_scraping"]
+
+[dependency-groups]
+dev = [
+  "mypy>=1.13,<2",
+  "pytest>=8.3,<9",
+  "pytest-asyncio>=0.24,<1",
+  "pytest-cov>=6,<7",
+  "ruff>=0.8,<1",
+]

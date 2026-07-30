@@ -1,0 +1,153 @@
+{
+  "requested_url": "https://www.digikala.com/search/?q=%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84",
+  "final_url": "https://www.digikala.com/search/?q=%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84",
+  "status": 200,
+  "title": "فروشگاه اینترنتی دیجی‌کالا",
+  "structured_scripts": [
+    "{\"props\":{\"pageProps\":{}},\"page\":\"/search\",\"query\":{},\"buildId\":\"e_89GsuS3Ja9YTfbxuyXP\",\"nextExport\":true,\"autoExport\":true,\"isFallback\":false,\"scriptLoader\":[]}"
+  ],
+  "sample_product_links": [
+    "https://www.digikala.com/product/dkp-22258282/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D9%86%D9%88%DA%A9%DB%8C%D8%A7-%D9%85%D8%AF%D9%84-108-2024-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-4-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-4-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%85%D9%88%D9%86%D8%AA%D8%A7%DA%98-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%AA%D8%AD%D8%AA-%D9%84%DB%8C%D8%B3%D8%A7%D9%86%D8%B3-%D9%86%D9%88%DA%A9%DB%8C%D8%A7/",
+    "https://www.digikala.com/product/dkp-22258443/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D9%86%D9%88%DA%A9%DB%8C%D8%A7-%D9%85%D8%AF%D9%84-125-2024-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-4-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-4-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%85%D9%88%D9%86%D8%AA%D8%A7%DA%98-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%AA%D8%AD%D8%AA-%D9%84%DB%8C%D8%B3%D8%A7%D9%86%D8%B3-%D9%86%D9%88%DA%A9%DB%8C%D8%A7/",
+    "https://www.digikala.com/product/dkp-22259125/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D9%86%D9%88%DA%A9%DB%8C%D8%A7-%D9%85%D8%AF%D9%84-150-music-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-8-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-8-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%85%D9%88%D9%86%D8%AA%D8%A7%DA%98-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%AA%D8%AD%D8%AA-%D9%84%DB%8C%D8%B3%D8%A7%D9%86%D8%B3-%D9%86%D9%88%DA%A9%DB%8C%D8%A7/",
+    "https://www.digikala.com/product/dkp-18577783/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%DA%AF-%D9%85%D8%AF%D9%84-galaxy-a36-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-256-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-8-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88%DB%8C%D8%AA%D9%86%D8%A7%D9%85/?product_id=18577783&variant_id=69249284",
+    "https://www.digikala.com/product/dkp-21670151/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%DA%AF-%D9%85%D8%AF%D9%84-galaxy-a37-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-256-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-8-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88%DB%8C%D8%AA%D9%86%D8%A7%D9%85/?product_id=21670151&variant_id=81451764"
+  ],
+  "responses": [
+    {
+      "url": "https://www.digikala.com/search/?q=%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://static1.intrack.ir/api/web/download/sdk/v1/inTrack.min.js?v=00",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://api-zakaria.digikala.com/api/features/sdk-1aauD6mWWgx2Deg2",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://sentry.digikala.com/api/3/envelope/?sentry_version=7&sentry_key=6ec0a41878123816ca85f3d3bdc0bf45&sentry_client=sentry.javascript.nextjs%2F10.63.0",
+      "status": 200,
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://sentry.digikala.com/api/3/envelope/?sentry_version=7&sentry_key=6ec0a41878123816ca85f3d3bdc0bf45&sentry_client=sentry.javascript.nextjs%2F10.63.0",
+      "status": 200,
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://api-zakaria.digikala.com/api/features/sdk-1aauD6mWWgx2Deg2",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://api.digikala.com/v1/user/init/?skip_keys[]=cart&q=%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84",
+      "status": 307,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://api.digikala.com/discovery/api/v2/search?columns_per_page=3&page=1&q=%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84",
+      "status": 307,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://api.digikala.com/v1/dictionaries/?hashes%5B0%5D=&hashes%5B1%5D=&hashes%5B2%5D=&hashes%5B3%5D=&hashes%5B4%5D=&hashes%5B5%5D=&hashes%5B6%5D=&hashes%5B7%5D=&hashes%5B8%5D=&types%5B0%5D=states&types%5B1%5D=cities&types%5B2%5D=user_jobs&types%5B3%5D=mega_menu&types%5B4%5D=universal&types%5B5%5D=category_tree&types%5B6%5D=districts&types%5B7%5D=seo_content&types%5B8%5D=superapp_services",
+      "status": 307,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://api.digikala.com/v1/dictionaries/?hashes%5B0%5D=&hashes%5B1%5D=&hashes%5B2%5D=&hashes%5B3%5D=&hashes%5B4%5D=&hashes%5B5%5D=&hashes%5B6%5D=&hashes%5B7%5D=&hashes%5B8%5D=&types%5B0%5D=states&types%5B1%5D=cities&types%5B2%5D=user_jobs&types%5B3%5D=mega_menu&types%5B4%5D=universal&types%5B5%5D=category_tree&types%5B6%5D=districts&types%5B7%5D=seo_content&types%5B8%5D=superapp_services",
+      "status": 200,
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://api.digikala.com/discovery/api/v2/search?columns_per_page=3&page=1&q=%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://static1.intrack.ir/api/web/download/sdk/v1/device.html",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "url": "https://api.digikala.com/v1/user/init/?skip_keys[]=cart&q=%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84",
+      "status": 200,
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://static1.intrack.ir/api/web/download/sdk/v1/intcs.wasm",
+      "status": 200,
+      "content_type": "application/wasm"
+    },
+    {
+      "url": "https://www.digikala.com/statics/img/svg/productCard/topBadge/SpecialSell.svg",
+      "status": 200,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://dkstatics-public.digikala.com/digikala-products/6cd26d265db5b92dc3a8c1f24aeefe38f5474c08_1747563608.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/format,webp/quality,q_90",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://dkstatics-public.digikala.com/digikala-products/08c61c8589a919509883d4566c6cc16fe86108c5_1747563810.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/format,webp/quality,q_90",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://dkstatics-public.digikala.com/digikala-products/66920d2fa5819aeb19966c85ffcc0dd142826b7a_1785045676.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/format,webp/quality,q_90",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://dkstatics-public.digikala.com/digikala-products/57dcc0636d52350cc09d5df8eb1b1a72b8ee0c5d_1785045977.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/format,webp/quality,q_90",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://dkstatics-public.digikala.com/digikala-products/93dfa04aa45bfffb3657699b41453e53d1119816_1776510183.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/format,webp/quality,q_90",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://dkstatics-public.digikala.com/digikala-products/daaa22b08d1140090682439e0cf79083329ab998_1785048027.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/format,webp/quality,q_90",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://api.digikala.com/discovery/api/v2/search?columns_per_page=3&page=2&q=%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-QQKVTD5TG8&gtm=45je67t0v9168872879z89177059727za20gzb9177059727zd9177059727&_p=1785439559166&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&are=1&cid=1707915164.1785439560&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=fa-ir&_s=1&tag_exp=115938466~115938469~118897920~118897930~119896802~120222308&dl=https%3A%2F%2Fwww.digikala.com%2Fsearch%2F%3Fq%3D%25D9%2585%25D9%2588%25D8%25A8%25D8%25A7%25DB%258C%25D9%2584&sid=1785439560&sct=1&seg=0&dt=%D9%81%D8%B1%D9%88%D8%B4%DA%AF%D8%A7%D9%87%20%D8%A7%DB%8C%D9%86%D8%AA%D8%B1%D9%86%D8%AA%DB%8C%20%D8%AF%DB%8C%D8%AC%DB%8C%E2%80%8C%DA%A9%D8%A7%D9%84%D8%A7&en=page_view&_fv=1&_nsi=1&_ss=1&up.guid_last_digit=6&up.guid_last_two_digits=46&up.guid_modulo_2=NaN&up.guid_modulo_10=NaN&up.guid_modulo_100=NaN&up.ab_safari_load_perf=a&tfd=3206",
+      "status": 204,
+      "content_type": "text/plain"
+    },
+    {
+      "url": "https://api-zakaria.digikala.com/api/features/sdk-1aauD6mWWgx2Deg2",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://api.digikala.com/cart/v1/carts/mini?q=%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84",
+      "status": 200,
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://api-dwid.digiwiseid.com/api/v1/smid/fingerprint",
+      "status": 200,
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://api.mediaad.org/v2/cookie/match?callback=https://api.intrack.ir/api/sdk/integration/AAAAAQ/mediaad",
+      "status": 200,
+      "content_type": "image/png"
+    }
+  ]
+}

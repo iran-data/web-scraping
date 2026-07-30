@@ -1,0 +1,15 @@
+{
+  "requested_url": "https://snappshop.ir/search/?q=%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84",
+  "final_url": "https://snappshop.ir/search/?q=%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84",
+  "status": 403,
+  "title": "",
+  "structured_scripts": [],
+  "sample_product_links": [],
+  "responses": [
+    {
+      "url": "https://snappshop.ir/search/?q=%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84",
+      "status": 403,
+      "content_type": "text/html; charset=utf-8"
+    }
+  ]
+}

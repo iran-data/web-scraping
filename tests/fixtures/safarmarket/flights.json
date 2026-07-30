@@ -1,0 +1,45 @@
+{
+  "code": 200,
+  "result": {
+    "flights": [
+      {
+        "flightId": 17,
+        "providersCount": 2,
+        "minPrice": 74008222,
+        "flightClass": "اکونومی",
+        "reservable": true,
+        "providers": [
+          {
+            "title": "آژانس نمونه",
+            "price": 74008222,
+            "capacity": 4,
+            "url": "/booking/example"
+          },
+          {
+            "title": "آژانس گران‌تر",
+            "price": 76000000,
+            "capacity": 2,
+            "url": "https://provider.example/booking"
+          }
+        ],
+        "leave": {
+          "flightNo": "1234",
+          "airlineNameFa": "هواپیمایی نمونه",
+          "airlineCode": "ZZ",
+          "departureTime": "2026-08-05 04:00",
+          "arrivalTime": "2026-08-05 05:30",
+          "duration": 90,
+          "sellType": "سیستمی",
+          "stopsCount": 0,
+          "charter": false,
+          "legs": [
+            {
+              "origin": {"cityNameFa": "تهران", "code": "THR"},
+              "destination": {"cityNameFa": "مشهد", "code": "MHD"}
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

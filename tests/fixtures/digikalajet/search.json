@@ -1,0 +1,17 @@
+{
+  "status": 200,
+  "data": {
+    "result": [{
+      "id": 22122708,
+      "merchant_product_id": 776113,
+      "title": "شیر کم چرب ماهشام",
+      "media": "https://example.test/jet.jpg",
+      "shop": {"id": "185113440676", "title": "فروشگاه جمهوری"},
+      "badges": {"is_best_deal": false},
+      "category": {"title": "شیر"},
+      "price": {"price": 1385000, "aggregated_price": 1411200, "discount_percentage": 0},
+      "stock": {"has_stock": true}
+    }],
+    "pager": {"current_page": 1, "total_pages": 2, "total_items": 21}
+  }
+}

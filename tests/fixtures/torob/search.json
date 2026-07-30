@@ -1,0 +1,13 @@
+{
+  "results": [{
+    "random_key": "153df520-3821-4053-ba6c-b55dbdd32f1a",
+    "name1": "گوشی سامسونگ S25 FE",
+    "name2": "Samsung Galaxy S25 FE",
+    "web_client_absolute_url": "/p/153df520-3821-4053-ba6c-b55dbdd32f1a/test/",
+    "price": 128999000,
+    "shop_text": "در ۱۴۰ فروشگاه",
+    "image_url": "https://example.test/torob.jpg"
+  }],
+  "count": 25,
+  "next": "next-page"
+}

@@ -1,0 +1,27 @@
+{
+  "payload": {
+    "result": {
+      "sid": 92282527,
+      "depArr": [
+        {
+          "sTid": "train-481-20260805",
+          "trainNumber": "481",
+          "wagonName": "چهار تخته",
+          "exitTime": "22:30",
+          "timeOfArrival": "06:15",
+          "depStationDate": "2026-08-05",
+          "duration": 465,
+          "cost": 15200000,
+          "fullPrice": 16000000,
+          "counting": 3,
+          "ownerSecondaryName": "رجا",
+          "coupeSeatType": "4",
+          "compartmentCapacity": 4,
+          "isCompartment": true,
+          "canExclusive": true,
+          "stops": [{"name": "سمنان"}]
+        }
+      ]
+    }
+  }
+}

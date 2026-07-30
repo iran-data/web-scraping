@@ -1,0 +1,19 @@
+{
+  "@type": "Product",
+  "name": "پژو 405",
+  "url": "https://bama.ir/car/detail-epbnbimc-peugeot-405-glxcng-1390",
+  "image": "https://cdn.bama.ir/example.jpg",
+  "brand": {"@type": "Brand", "name": "پژو"},
+  "color": "نقره ای",
+  "offers": {
+    "price": "640000000",
+    "priceCurrency": "IRR",
+    "availability": "https://schema.org/InStock",
+    "itemOffered": {
+      "identifier": "epbnbimc",
+      "vehicleTransmission": "دنده ای",
+      "vehicleModelDate": 1390,
+      "mileageFromOdometer": {"Value": 250000}
+    }
+  }
+}

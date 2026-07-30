@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "گوشی موبایل سامسونگ مدل Galaxy S25 FE",
+  "sku": "165916",
+  "image": ["/image/gallery-0-TLP-165916.png"],
+  "brand": {"@type": "Brand", "name": "سامسونگ|Samsung"},
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "reviewCount": 151,
+    "bestRating": 5,
+    "ratingValue": "4.0"
+  },
+  "offers": {
+    "@type": "AggregateOffer",
+    "priceCurrency": "IRR",
+    "highPrice": 150549000,
+    "lowPrice": 137200000,
+    "offerCount": 3,
+    "offers": [
+      {
+        "@type": "Offer",
+        "price": 137200000,
+        "priceCurrency": "IRR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.technolife.com/product-165916/test-product",
+        "seller": {"@type": "Organization", "name": "هماهنگ شاپ"}
+      }
+    ]
+  }
+}

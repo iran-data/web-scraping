@@ -1,0 +1,130 @@
+{
+  "requested_url": "https://www.digikalajet.com/search/?q=%D8%B4%DB%8C%D8%B1",
+  "final_url": "https://www.digikalajet.com/search/?q=%D8%B4%DB%8C%D8%B1",
+  "status": 200,
+  "title": "سوپرمارکت فوری دیجی‌کالا | خرید آنلاین و فوری از سوپرمارکت‌های اطراف",
+  "structured_scripts": [],
+  "sample_product_links": [],
+  "responses": [
+    {
+      "url": "https://www.digikalajet.com/search/?q=%D8%B4%DB%8C%D8%B1",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://www.digikalajet.com/assets/x-lazy-map-api-error-to-error-message.DO8yBcfa.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.digikalajet.com/assets/x-lazy-use-get-url-location-search.tnKYq7uQ.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.digikalajet.com/assets/x-lazy-use-get-search-params.CUQqb02I.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://sentry.digikala.com/api/2/envelope/?sentry_version=7&sentry_key=a5e92aec34648c45bbaa960512570ad4&sentry_client=sentry.javascript.react%2F10.36.0",
+      "status": 200,
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://www.digikalajet.com/assets/x-lazy-page-search-app-src.BaVBvcwo.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://api-growthbook.digikalajet.com/api/features/sdk-m4E82wS0n1t9JWJ",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://api.digikalajet.ir/user/session-activity/",
+      "status": 200,
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://api.digikalajet.ir/first-load/",
+      "status": 200,
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://api.digikalajet.ir/products/search/all/?q=%D8%B4%DB%8C%D8%B1&shopId=",
+      "status": 200,
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://sentry.digikala.com/api/2/envelope/?sentry_version=7&sentry_key=a5e92aec34648c45bbaa960512570ad4&sentry_client=sentry.javascript.react%2F10.36.0",
+      "status": 429,
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://sentry.digikala.com/api/2/envelope/?sentry_version=7&sentry_key=a5e92aec34648c45bbaa960512570ad4&sentry_client=sentry.javascript.react%2F10.36.0",
+      "status": 200,
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://sentry.digikala.com/api/2/envelope/?sentry_version=7&sentry_key=a5e92aec34648c45bbaa960512570ad4&sentry_client=sentry.javascript.react%2F10.36.0",
+      "status": 200,
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://api.digikalajet.ir/products/search/all/?q=%D8%B4%DB%8C%D8%B1&shopId=&latitude=35.780833&longitude=51.464139",
+      "status": 200,
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://www.digikalajet.com/i/kalabarg-product-badge.svg",
+      "status": 200,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://dkstatics-public.digikala.com/digikala-products/e733deb728014af344c19149c64113ad325ebd47_1730623725.jpg?x-oss-process=image/resize,m_lfit,h_400,w_400/quality,q_90/format,webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://dkstatics-public.digikala.com/digikala-products/9f24c4365a6338aaa3aec2d68b5794a5795733e2_1639238279.jpg?x-oss-process=image/resize,m_lfit,h_400,w_400/quality,q_90/format,webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://dkstatics-public.digikala.com/digikala-products/84b44fa35959ed00fdf643fec19d5ea647c27b8b_1694265942.jpg?x-oss-process=image/resize,m_lfit,h_400,w_400/quality,q_90/format,webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://dkstatics-public.digikala.com/digikala-products/679e01688c9ea0d88aea14b769d94c53444ff494_1641388888.jpg?x-oss-process=image/resize,m_lfit,h_400,w_400/quality,q_90/format,webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://dkstatics-public.digikala.com/digikala-products/3a83e78cfb3bceb74dd600b4c386d6341acc8114_1636801752.jpg?x-oss-process=image/resize,m_lfit,h_400,w_400/quality,q_90/format,webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://dkstatics-public.digikala.com/digikala-products/56383ff206edec28529415702bf307338ea21b2a_1639204003.jpg?x-oss-process=image/resize,m_lfit,h_400,w_400/quality,q_90/format,webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://dkstatics-public.digikala.com/digikala-products/091b51cc1ae48262a9e82fc60c0554fadb70c093_1637671119.jpg?x-oss-process=image/resize,m_lfit,h_400,w_400/quality,q_90/format,webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://dkstatics-public.digikala.com/digikala-products/3523731.jpg?x-oss-process=image/resize,m_lfit,h_400,w_400/quality,q_90/format,webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://sentry.digikala.com/api/2/envelope/?sentry_version=7&sentry_key=a5e92aec34648c45bbaa960512570ad4&sentry_client=sentry.javascript.react%2F10.36.0",
+      "status": 429,
+      "content_type": "application/json"
+    }
+  ]
+}

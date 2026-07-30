@@ -1,0 +1,35 @@
+{
+  "props": {
+    "pageProps": {
+      "dehydratedState": {
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "results": [
+                  {
+                    "name": "گوشی موبایل سامسونگ مدل Galaxy S25 FE",
+                    "_id": "68c3d53499e4824a52cebc68",
+                    "code": "TLP-165916",
+                    "normal_price": 140000000,
+                    "discount": "2%",
+                    "discounted_price": 137200000,
+                    "image": "/image/small_product-TLP-165916.png",
+                    "score_count": 151,
+                    "score_avg": 3.99,
+                    "available": 3000,
+                    "marketing_group": "تکنوآف",
+                    "query_id": "fixture-query",
+                    "product_position": 1
+                  }
+                ],
+                "count": 31,
+                "query_id": "fixture-query"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

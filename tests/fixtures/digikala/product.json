@@ -1,0 +1,1841 @@
+{
+  "status": 200,
+  "data": {
+    "product": {
+      "id": 22258282,
+      "title_fa": "گوشی موبایل نوکیا مدل 108 2024 دو سیم کارت ظرفیت 4 مگابایت و رم 4 مگابایت - مونتاژ ایران تحت لیسانس نوکیا",
+      "title_en": "Nokia 108 2024 Dual SIM Storage 4MB And RAM 4MB - Assembled in Iran under The license of Nokia",
+      "url": {
+        "base": null,
+        "uri": "/product/dkp-22258282/گوشی-موبایل-نوکیا-مدل-108-2024-دو-سیم-کارت-ظرفیت-4-مگابایت-و-رم-4-مگابایت-مونتاژ-ایران-تحت-لیسانس-نوکیا"
+      },
+      "status": "marketable",
+      "has_quick_view": false,
+      "data_layer": {
+        "brand": "نوکیا",
+        "category": "[MO,گوشی موبایل]",
+        "metric6": 1,
+        "dimension2": 0,
+        "dimension6": 0,
+        "dimension7": "none",
+        "dimension9": 5,
+        "dimension11": 0,
+        "dimension20": "marketable",
+        "item_category2": "موبایل",
+        "item_category3": "گوشی موبایل",
+        "item_category4": "",
+        "item_category5": ""
+      },
+      "product_type": "product",
+      "test_title_fa": "",
+      "test_title_en": "",
+      "digiplus": {
+        "services": [
+          "۴ ارسال رایگان دیجیکالا",
+          "۲ ارسال سوپرمارکت",
+          "۴ ارسال رایگان ۴۵ دقیقه‌ای",
+          "پشتیبانی اختصاصی"
+        ],
+        "service_list": [
+          {
+            "title": "۴ ارسال رایگان دیجیکالا"
+          },
+          {
+            "title": "۲ ارسال سوپرمارکت"
+          },
+          {
+            "title": "۴ ارسال رایگان ۴۵ دقیقه‌ای"
+          },
+          {
+            "title": "پشتیبانی اختصاصی"
+          }
+        ],
+        "services_summary": [
+          "ارسال رایگان"
+        ],
+        "is_jet_eligible": false,
+        "cash_back": 0,
+        "is_general_location_jet_eligible": false,
+        "fast_shipping_text": null
+      },
+      "images": {
+        "main": {
+          "storage_ids": [],
+          "url": [
+            "https://dkstatics-public.digikala.com/digikala-products/66920d2fa5819aeb19966c85ffcc0dd142826b7a_1785045676.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+          ],
+          "thumbnail_url": null,
+          "temporary_id": null,
+          "webp_url": [
+            "https://dkstatics-public.digikala.com/digikala-products/66920d2fa5819aeb19966c85ffcc0dd142826b7a_1785045676.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+          ]
+        },
+        "list": [
+          {
+            "storage_ids": [],
+            "url": [
+              "https://dkstatics-public.digikala.com/digikala-products/9d2ec07a6097fe62cc4c64c7c88180736acb765e_1785045675.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+            ],
+            "thumbnail_url": null,
+            "temporary_id": null,
+            "webp_url": [
+              "https://dkstatics-public.digikala.com/digikala-products/9d2ec07a6097fe62cc4c64c7c88180736acb765e_1785045675.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+            ]
+          },
+          {
+            "storage_ids": [],
+            "url": [
+              "https://dkstatics-public.digikala.com/digikala-products/c4618aba7d4a9d228a87effc097e4af3ec6d7280_1785045676.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+            ],
+            "thumbnail_url": null,
+            "temporary_id": null,
+            "webp_url": [
+              "https://dkstatics-public.digikala.com/digikala-products/c4618aba7d4a9d228a87effc097e4af3ec6d7280_1785045676.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+            ]
+          },
+          {
+            "storage_ids": [],
+            "url": [
+              "https://dkstatics-public.digikala.com/digikala-products/cb3cf387a8c09b4344a4eebce039de5749ee9c5c_1785068241.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+            ],
+            "thumbnail_url": null,
+            "temporary_id": null,
+            "webp_url": [
+              "https://dkstatics-public.digikala.com/digikala-products/cb3cf387a8c09b4344a4eebce039de5749ee9c5c_1785068241.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+            ]
+          },
+          {
+            "storage_ids": [],
+            "url": [
+              "https://dkstatics-public.digikala.com/digikala-products/8cc832c30951988719541542ffbb5e6ef3dbe438_1785068246.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+            ],
+            "thumbnail_url": null,
+            "temporary_id": null,
+            "webp_url": [
+              "https://dkstatics-public.digikala.com/digikala-products/8cc832c30951988719541542ffbb5e6ef3dbe438_1785068246.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+            ]
+          },
+          {
+            "storage_ids": [],
+            "url": [
+              "https://dkstatics-public.digikala.com/digikala-products/2bba18b6c37ded52b5a26c6f2a26a6e9ee7a6fc0_1785068246.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+            ],
+            "thumbnail_url": null,
+            "temporary_id": null,
+            "webp_url": [
+              "https://dkstatics-public.digikala.com/digikala-products/2bba18b6c37ded52b5a26c6f2a26a6e9ee7a6fc0_1785068246.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+            ]
+          },
+          {
+            "storage_ids": [],
+            "url": [
+              "https://dkstatics-public.digikala.com/digikala-products/c6991e49f7072ec51da3e2300c65506538568cff_1785068249.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+            ],
+            "thumbnail_url": null,
+            "temporary_id": null,
+            "webp_url": [
+              "https://dkstatics-public.digikala.com/digikala-products/c6991e49f7072ec51da3e2300c65506538568cff_1785068249.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+            ]
+          },
+          {
+            "storage_ids": [],
+            "url": [
+              "https://dkstatics-public.digikala.com/digikala-products/ba77dce06f25589b7de56bf4d9e6b0fa2ccbbe47_1785068253.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+            ],
+            "thumbnail_url": null,
+            "temporary_id": null,
+            "webp_url": [
+              "https://dkstatics-public.digikala.com/digikala-products/ba77dce06f25589b7de56bf4d9e6b0fa2ccbbe47_1785068253.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+            ]
+          },
+          {
+            "storage_ids": [],
+            "url": [
+              "https://dkstatics-public.digikala.com/digikala-products/ad12c3ef0b8355eec9faae7b26e81b0f7fa126fe_1785068256.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+            ],
+            "thumbnail_url": null,
+            "temporary_id": null,
+            "webp_url": [
+              "https://dkstatics-public.digikala.com/digikala-products/ad12c3ef0b8355eec9faae7b26e81b0f7fa126fe_1785068256.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+            ]
+          },
+          {
+            "storage_ids": [],
+            "url": [
+              "https://dkstatics-public.digikala.com/digikala-products/836662c0e911acf73be3baee8f324d0baa11e867_1785068256.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+            ],
+            "thumbnail_url": null,
+            "temporary_id": null,
+            "webp_url": [
+              "https://dkstatics-public.digikala.com/digikala-products/836662c0e911acf73be3baee8f324d0baa11e867_1785068256.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+            ]
+          },
+          {
+            "storage_ids": [],
+            "url": [
+              "https://dkstatics-public.digikala.com/digikala-products/f21bf2d949cba797f1fd44de8f9b8920ede01721_1785068258.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+            ],
+            "thumbnail_url": null,
+            "temporary_id": null,
+            "webp_url": [
+              "https://dkstatics-public.digikala.com/digikala-products/f21bf2d949cba797f1fd44de8f9b8920ede01721_1785068258.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+            ]
+          },
+          {
+            "storage_ids": [],
+            "url": [
+              "https://dkstatics-public.digikala.com/digikala-products/9860a80bbad9f7b559bdfd439e67827c87c66876_1785068262.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+            ],
+            "thumbnail_url": null,
+            "temporary_id": null,
+            "webp_url": [
+              "https://dkstatics-public.digikala.com/digikala-products/9860a80bbad9f7b559bdfd439e67827c87c66876_1785068262.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+            ]
+          },
+          {
+            "storage_ids": [],
+            "url": [
+              "https://dkstatics-public.digikala.com/digikala-products/ef63a0db94fdaea208da10381eb9cfd7effa0ba6_1785068266.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+            ],
+            "thumbnail_url": null,
+            "temporary_id": null,
+            "webp_url": [
+              "https://dkstatics-public.digikala.com/digikala-products/ef63a0db94fdaea208da10381eb9cfd7effa0ba6_1785068266.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+            ]
+          },
+          {
+            "storage_ids": [],
+            "url": [
+              "https://dkstatics-public.digikala.com/digikala-products/480db5a23e4646e53282ca7ff1c3c4c2466f8b36_1785068266.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+            ],
+            "thumbnail_url": null,
+            "temporary_id": null,
+            "webp_url": [
+              "https://dkstatics-public.digikala.com/digikala-products/480db5a23e4646e53282ca7ff1c3c4c2466f8b36_1785068266.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+            ]
+          },
+          {
+            "storage_ids": [],
+            "url": [
+              "https://dkstatics-public.digikala.com/digikala-products/d66c515c55d90c58ec198d33c4d51bb2192127ca_1785068269.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+            ],
+            "thumbnail_url": null,
+            "temporary_id": null,
+            "webp_url": [
+              "https://dkstatics-public.digikala.com/digikala-products/d66c515c55d90c58ec198d33c4d51bb2192127ca_1785068269.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+            ]
+          }
+        ]
+      },
+      "rating": {
+        "rate": 100,
+        "count": 1
+      },
+      "gallery_variant": "grid",
+      "colors": [
+        {
+          "id": 1,
+          "title": "مشکی",
+          "hex_code": "#000000",
+          "images": []
+        }
+      ],
+      "has_price_chart": true,
+      "default_variant": {
+        "id": 81582206,
+        "lead_time": 0,
+        "rank": 100,
+        "rate": 100,
+        "statistics": {
+          "totally_satisfied": {
+            "rate_count": 1,
+            "rate": 100
+          },
+          "satisfied": {
+            "rate_count": 0,
+            "rate": 0
+          },
+          "neutral": {
+            "rate_count": 0,
+            "rate": 0
+          },
+          "dissatisfied": {
+            "rate_count": 0,
+            "rate": 0
+          },
+          "totally_dissatisfied": {
+            "rate_count": 0,
+            "rate": 0
+          },
+          "total_count": 1,
+          "total_rate": 100
+        },
+        "status": "marketable",
+        "properties": {
+          "is_fast_shipping": false,
+          "is_ship_by_seller": false,
+          "is_multi_warehouse": false,
+          "has_similar_variants": false,
+          "is_rural": false,
+          "in_digikala_warehouse": true,
+          "is_ship_from_user_state": false,
+          "nearby_seller_shipment": false,
+          "support_nearby_shipping_for_user": false,
+          "is_ship_by_seller_restricted": false
+        },
+        "warranty": {
+          "id": 11647,
+          "title_fa": "گارانتی 18 ماهه پارسه پیشتاز ونداد پرداز( جی اس ام سرویس)",
+          "title_en": "گارانتی 18 ماهه پارسه پیشتاز ونداد پرداز( جی اس ام سرویس)"
+        },
+        "themes": [
+          {
+            "value": {
+              "variant_id": 81582206,
+              "id": 1,
+              "title": "مشکی",
+              "code": "#000000",
+              "hexCode": "#000000",
+              "hex_code": "#000000",
+              "nature": "color"
+            },
+            "label": "رنگ",
+            "type": "colored",
+            "is_main": true
+          }
+        ],
+        "color": {
+          "id": 1,
+          "title": "مشکی",
+          "hex_code": "#000000"
+        },
+        "seller": {
+          "id": 41002,
+          "title": "کالا پلاس",
+          "code": "6YJW9",
+          "url": "https://www.digikala.com/seller/6YJW9/",
+          "rating": {
+            "total_rate": 83,
+            "total_count": 82872,
+            "commitment": 100,
+            "no_return": 100,
+            "on_time_shipping": 100
+          },
+          "properties": {
+            "is_trusted": false,
+            "is_official": false,
+            "is_roosta": false,
+            "is_new": false
+          },
+          "stars": 5,
+          "grade": {
+            "label": "عالی",
+            "color": "#00a049"
+          },
+          "logo": null,
+          "registration_date": "8 سال و 2 ماه"
+        },
+        "digiclub": {
+          "point": 150
+        },
+        "insurance": {
+          "title": "بیمه تجهیزات دیجیتال - بیمه سامان",
+          "subtitle": "با قابلیت جبران هزینه های تعمیر و تعویض یکساله",
+          "description": "با بیمه دیجی‌پی، بخش زیادی از خسارت‌های ناشی از حوادث زیر پوشش داده می‌شود (۲۰٪ فرانشیز بر عهده بیمه‌گذار است):",
+          "covers": [
+            {
+              "description": "جبران خسارات ناشی از انواع سرقت",
+              "maxCoverage": null,
+              "maxUseCount": 1
+            },
+            {
+              "description": "جبران خسارات فیزیکی مانند ضربه‌دیدگی، شکستگی و آب‌خوردگی غیرعمدی",
+              "maxCoverage": null,
+              "maxUseCount": null
+            },
+            {
+              "description": "جبران خسارات ناشی از آتش‌سوزی و انفجارهای غیرعمدی",
+              "maxCoverage": null,
+              "maxUseCount": null
+            },
+            {
+              "description": "جبران خسارات ناشی از سوختگی یا نیم‌سوز شدن، القای الکتریکی، اتصال کوتاه و نوسانات ولتاژ غیرعمدی",
+              "maxCoverage": null,
+              "maxUseCount": null
+            },
+            {
+              "description": "همچنین تمام فرایند‌های بیمه دیجی‌پی از خرید تا دریافت خسارت آنلاین است.",
+              "maxCoverage": null,
+              "maxUseCount": null
+            },
+            {
+              "description": "هزینه‌های دستگاه صدمه دیده حتی گوشی‌های آیفون در کمتر از ۴۸ ساعت بعد از اعلام خسارت پرداخت می‌شود.",
+              "maxCoverage": null,
+              "maxUseCount": null
+            },
+            {
+              "description": "تعمیرات توسط متخصصین دیجی‌کالا سرویس انجام می‌شود و هر تعمیر ۳ ماه و هر قطعه تعمیر شده ۶ ماه گارانتی دارد.",
+              "maxCoverage": null,
+              "maxUseCount": null
+            },
+            {
+              "description": "* توجه: برای استفاده از بیمه، بعد از دریافت کالای دیجیتال خود، به سایت دیجی‌پی، بخش بیمه تجهیزات و بعد پنل کاربری مراجعه کنید و بیمه خود را فعال کنید. در غیر این‌صورت امکان دانلود بیمه‌نامه و دریافت خسارت وجود ندارد.",
+              "maxCoverage": null,
+              "maxUseCount": null
+            },
+            {
+              "description": "برای اعلام خسارت وارد پنل کاربری خود در سایت دیجی‌پی شوید و اطلاعات خود را تکمیل کنید.",
+              "maxCoverage": null,
+              "maxUseCount": null
+            },
+            {
+              "description": "برای رفع مشکلات و سوالات خود می‌توانید در هفت روز هفته با شماره ۰۲۱۵۳۹۲۴۰۰۰ تماس بگیرید.",
+              "maxCoverage": null,
+              "maxUseCount": null
+            }
+          ],
+          "base_premium": 540000,
+          "discount": 0,
+          "tax": 54000,
+          "total_premium": 594000,
+          "terms_and_conditions": "بران خسارات ناشی از ضربه خوردگی، شکستگی، آبخوردگی، سرقت با شکست حرز و کلیه حوادث مرتبط با دستگاه خریداری شده با کسورات و فرانشیز حداقل، بدون هزینه استهلاک \r\nارائه خدمات ویژه VIP، بدون هر گونه مراجعه فیزیکی",
+          "before_discount": 1188000,
+          "discount_percent": 50
+        },
+        "price": {
+          "selling_price": 35990000,
+          "rrp_price": 35990000,
+          "order_limit": 5,
+          "is_incredible": false,
+          "is_promotion": false,
+          "is_locked_for_digiplus": false,
+          "bnpl_active": false,
+          "discount_percent": 0,
+          "is_plus_early_access": false,
+          "min_order_limit": 1
+        },
+        "shipment_methods": {
+          "description": "موجود در انبار دیجی‌کالا",
+          "has_lead_time": true,
+          "icon": "cube-badge-available-product",
+          "icon_color": "#0fabc6",
+          "providers": [
+            {
+              "has_lead_time": false,
+              "type": "digikala",
+              "title": "ارسال دیجی‌کالا",
+              "description": "این کالا در انبار دیجی‌کالا موجود و آماده پردازش است و توسط پیک دیجی‌کالا در بازه انتخابی ارسال خواهد شد.",
+              "label": {
+                "title": "توسط دیجی‌کالا",
+                "description": null
+              },
+              "price": {
+                "text": "وابسته به سبد",
+                "value": null,
+                "is_free": false
+              },
+              "shipping_mode": "digikala",
+              "delivery_day": "today",
+              "image": "https://dkstatics-public.digikala.com/digikala-static/85db0f29b9d811de333a7980a0b8fb35f10b5758_1667056305.png",
+              "svg_image": "https://dkstatics-public.digikala.com/digikala-static/562b91988f1beec9a5f13aee3cf31cfd7a1a25b1_1748679087.svg"
+            },
+            {
+              "has_lead_time": false,
+              "type": "jet",
+              "title": "ارسال سریع دیجی‌کالا (تهران و کرج)",
+              "description": "اگر سفارش را قبل از ساعت ۶ عصر ثبت کنید، همان روز ارسال می‌شود. در صورت ثبت سفارش بعد از ساعت ۶ عصر، فردا ارسال خواهد شد.",
+              "label": {
+                "title": "ارسال سریع دیجی‌کالا",
+                "description": null
+              },
+              "price": {
+                "text": "وابسته به سبد",
+                "value": null,
+                "is_free": false
+              },
+              "shipping_mode": "jet",
+              "delivery_day": "today",
+              "image": "https://dkstatics-public.digikala.com/digikala-static/262c38c0e4990522af759e0016a287508bbc84f6_1684761217.png",
+              "svg_image": "https://dkstatics-public.digikala.com/digikala-static/169e0c18019ceadf022b72c5248fe9a4ed3c68fb_1748679177.svg"
+            }
+          ]
+        },
+        "has_importer_price": false,
+        "manufacture_price_not_exist": false,
+        "has_best_price_in_last_month": false,
+        "buy_box_notices": [],
+        "digiplus": {
+          "services": [
+            "۴ ارسال رایگان دیجیکالا",
+            "۲ ارسال سوپرمارکت",
+            "۴ ارسال رایگان ۴۵ دقیقه‌ای",
+            "پشتیبانی اختصاصی",
+            "ارسال سریع و رایگان دیجی‌کالا (فقط تهران و کرج)"
+          ],
+          "service_list": [
+            {
+              "title": "۴ ارسال رایگان دیجیکالا"
+            },
+            {
+              "title": "۲ ارسال سوپرمارکت"
+            },
+            {
+              "title": "۴ ارسال رایگان ۴۵ دقیقه‌ای"
+            },
+            {
+              "title": "پشتیبانی اختصاصی"
+            },
+            {
+              "title": "ارسال سریع و رایگان دیجی‌کالا (فقط تهران و کرج)"
+            }
+          ],
+          "services_summary": [
+            "ارسال سریع و رایگان دیجی‌کالا (فقط تهران و کرج)"
+          ],
+          "is_jet_eligible": true,
+          "cash_back": 0,
+          "is_general_location_jet_eligible": false,
+          "fast_shipping_text": "ارسال سریع دیجی‌کالا"
+        },
+        "variant_badges": []
+      },
+      "properties": {
+        "is_fast_shipping": false,
+        "is_ship_by_seller": false,
+        "free_shipping_badge": false,
+        "is_multi_warehouse": false,
+        "is_fake": false,
+        "has_gift": false,
+        "min_price_in_last_month": 0,
+        "is_non_inventory": false,
+        "is_jet_eligible": false,
+        "is_medical_supplement": false,
+        "is_ad": false,
+        "ad": [],
+        "has_printed_price": false
+      },
+      "badges": [],
+      "has_true_to_size": false,
+      "product_badges": [],
+      "variants_images": {
+        "main": {
+          "variant_id": null,
+          "variant_ids": [],
+          "storage_ids": [],
+          "url": [
+            "https://dkstatics-public.digikala.com/digikala-products/66920d2fa5819aeb19966c85ffcc0dd142826b7a_1785045676.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+          ],
+          "thumbnail_url": null,
+          "temporary_id": null,
+          "webp_url": [
+            "https://dkstatics-public.digikala.com/digikala-products/66920d2fa5819aeb19966c85ffcc0dd142826b7a_1785045676.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+          ]
+        },
+        "list": [
+          {
+            "variant_id": null,
+            "variant_ids": [],
+            "storage_ids": [],
+            "url": [
+              "https://dkstatics-public.digikala.com/digikala-products/9d2ec07a6097fe62cc4c64c7c88180736acb765e_1785045675.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+            ],
+            "thumbnail_url": null,
+            "temporary_id": null,
+            "webp_url": [
+              "https://dkstatics-public.digikala.com/digikala-products/9d2ec07a6097fe62cc4c64c7c88180736acb765e_1785045675.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+            ]
+          },
+          {
+            "variant_id": null,
+            "variant_ids": [],
+            "storage_ids": [],
+            "url": [
+              "https://dkstatics-public.digikala.com/digikala-products/c4618aba7d4a9d228a87effc097e4af3ec6d7280_1785045676.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+            ],
+            "thumbnail_url": null,
+            "temporary_id": null,
+            "webp_url": [
+              "https://dkstatics-public.digikala.com/digikala-products/c4618aba7d4a9d228a87effc097e4af3ec6d7280_1785045676.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+            ]
+          },
+          {
+            "variant_id": null,
+            "variant_ids": [],
+            "storage_ids": [],
+            "url": [
+              "https://dkstatics-public.digikala.com/digikala-products/cb3cf387a8c09b4344a4eebce039de5749ee9c5c_1785068241.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+            ],
+            "thumbnail_url": null,
+            "temporary_id": null,
+            "webp_url": [
+              "https://dkstatics-public.digikala.com/digikala-products/cb3cf387a8c09b4344a4eebce039de5749ee9c5c_1785068241.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+            ]
+          },
+          {
+            "variant_id": null,
+            "variant_ids": [],
+            "storage_ids": [],
+            "url": [
+              "https://dkstatics-public.digikala.com/digikala-products/8cc832c30951988719541542ffbb5e6ef3dbe438_1785068246.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+            ],
+            "thumbnail_url": null,
+            "temporary_id": null,
+            "webp_url": [
+              "https://dkstatics-public.digikala.com/digikala-products/8cc832c30951988719541542ffbb5e6ef3dbe438_1785068246.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+            ]
+          },
+          {
+            "variant_id": null,
+            "variant_ids": [],
+            "storage_ids": [],
+            "url": [
+              "https://dkstatics-public.digikala.com/digikala-products/2bba18b6c37ded52b5a26c6f2a26a6e9ee7a6fc0_1785068246.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+            ],
+            "thumbnail_url": null,
+            "temporary_id": null,
+            "webp_url": [
+              "https://dkstatics-public.digikala.com/digikala-products/2bba18b6c37ded52b5a26c6f2a26a6e9ee7a6fc0_1785068246.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+            ]
+          },
+          {
+            "variant_id": null,
+            "variant_ids": [],
+            "storage_ids": [],
+            "url": [
+              "https://dkstatics-public.digikala.com/digikala-products/c6991e49f7072ec51da3e2300c65506538568cff_1785068249.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+            ],
+            "thumbnail_url": null,
+            "temporary_id": null,
+            "webp_url": [
+              "https://dkstatics-public.digikala.com/digikala-products/c6991e49f7072ec51da3e2300c65506538568cff_1785068249.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+            ]
+          },
+          {
+            "variant_id": null,
+            "variant_ids": [],
+            "storage_ids": [],
+            "url": [
+              "https://dkstatics-public.digikala.com/digikala-products/ba77dce06f25589b7de56bf4d9e6b0fa2ccbbe47_1785068253.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+            ],
+            "thumbnail_url": null,
+            "temporary_id": null,
+            "webp_url": [
+              "https://dkstatics-public.digikala.com/digikala-products/ba77dce06f25589b7de56bf4d9e6b0fa2ccbbe47_1785068253.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+            ]
+          },
+          {
+            "variant_id": null,
+            "variant_ids": [],
+            "storage_ids": [],
+            "url": [
+              "https://dkstatics-public.digikala.com/digikala-products/ad12c3ef0b8355eec9faae7b26e81b0f7fa126fe_1785068256.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+            ],
+            "thumbnail_url": null,
+            "temporary_id": null,
+            "webp_url": [
+              "https://dkstatics-public.digikala.com/digikala-products/ad12c3ef0b8355eec9faae7b26e81b0f7fa126fe_1785068256.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+            ]
+          },
+          {
+            "variant_id": null,
+            "variant_ids": [],
+            "storage_ids": [],
+            "url": [
+              "https://dkstatics-public.digikala.com/digikala-products/836662c0e911acf73be3baee8f324d0baa11e867_1785068256.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+            ],
+            "thumbnail_url": null,
+            "temporary_id": null,
+            "webp_url": [
+              "https://dkstatics-public.digikala.com/digikala-products/836662c0e911acf73be3baee8f324d0baa11e867_1785068256.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+            ]
+          },
+          {
+            "variant_id": null,
+            "variant_ids": [],
+            "storage_ids": [],
+            "url": [
+              "https://dkstatics-public.digikala.com/digikala-products/f21bf2d949cba797f1fd44de8f9b8920ede01721_1785068258.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+            ],
+            "thumbnail_url": null,
+            "temporary_id": null,
+            "webp_url": [
+              "https://dkstatics-public.digikala.com/digikala-products/f21bf2d949cba797f1fd44de8f9b8920ede01721_1785068258.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+            ]
+          },
+          {
+            "variant_id": null,
+            "variant_ids": [],
+            "storage_ids": [],
+            "url": [
+              "https://dkstatics-public.digikala.com/digikala-products/9860a80bbad9f7b559bdfd439e67827c87c66876_1785068262.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+            ],
+            "thumbnail_url": null,
+            "temporary_id": null,
+            "webp_url": [
+              "https://dkstatics-public.digikala.com/digikala-products/9860a80bbad9f7b559bdfd439e67827c87c66876_1785068262.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+            ]
+          },
+          {
+            "variant_id": null,
+            "variant_ids": [],
+            "storage_ids": [],
+            "url": [
+              "https://dkstatics-public.digikala.com/digikala-products/ef63a0db94fdaea208da10381eb9cfd7effa0ba6_1785068266.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+            ],
+            "thumbnail_url": null,
+            "temporary_id": null,
+            "webp_url": [
+              "https://dkstatics-public.digikala.com/digikala-products/ef63a0db94fdaea208da10381eb9cfd7effa0ba6_1785068266.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+            ]
+          },
+          {
+            "variant_id": null,
+            "variant_ids": [],
+            "storage_ids": [],
+            "url": [
+              "https://dkstatics-public.digikala.com/digikala-products/480db5a23e4646e53282ca7ff1c3c4c2466f8b36_1785068266.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+            ],
+            "thumbnail_url": null,
+            "temporary_id": null,
+            "webp_url": [
+              "https://dkstatics-public.digikala.com/digikala-products/480db5a23e4646e53282ca7ff1c3c4c2466f8b36_1785068266.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+            ]
+          },
+          {
+            "variant_id": null,
+            "variant_ids": [],
+            "storage_ids": [],
+            "url": [
+              "https://dkstatics-public.digikala.com/digikala-products/d66c515c55d90c58ec198d33c4d51bb2192127ca_1785068269.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+            ],
+            "thumbnail_url": null,
+            "temporary_id": null,
+            "webp_url": [
+              "https://dkstatics-public.digikala.com/digikala-products/d66c515c55d90c58ec198d33c4d51bb2192127ca_1785068269.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+            ]
+          }
+        ]
+      },
+      "variants": [
+        {
+          "id": 81582206,
+          "lead_time": 0,
+          "rank": 210,
+          "rate": 100,
+          "statistics": {
+            "totally_satisfied": {
+              "rate_count": 1,
+              "rate": 100
+            },
+            "satisfied": {
+              "rate_count": 0,
+              "rate": 0
+            },
+            "neutral": {
+              "rate_count": 0,
+              "rate": 0
+            },
+            "dissatisfied": {
+              "rate_count": 0,
+              "rate": 0
+            },
+            "totally_dissatisfied": {
+              "rate_count": 0,
+              "rate": 0
+            },
+            "total_count": 1,
+            "total_rate": 100
+          },
+          "status": "marketable",
+          "properties": {
+            "is_fast_shipping": false,
+            "is_ship_by_seller": false,
+            "is_multi_warehouse": false,
+            "has_similar_variants": false,
+            "is_rural": false,
+            "in_digikala_warehouse": true,
+            "is_ship_from_user_state": false,
+            "nearby_seller_shipment": false,
+            "support_nearby_shipping_for_user": false,
+            "is_ship_by_seller_restricted": false
+          },
+          "warranty": {
+            "id": 11647,
+            "title_fa": "گارانتی 18 ماهه پارسه پیشتاز ونداد پرداز( جی اس ام سرویس)",
+            "title_en": "گارانتی 18 ماهه پارسه پیشتاز ونداد پرداز( جی اس ام سرویس)"
+          },
+          "themes": [
+            {
+              "value": {
+                "variant_id": 81582206,
+                "id": 1,
+                "title": "مشکی",
+                "code": "#000000",
+                "hexCode": "#000000",
+                "hex_code": "#000000",
+                "nature": "color"
+              },
+              "label": "رنگ",
+              "type": "colored",
+              "is_main": true
+            }
+          ],
+          "color": {
+            "id": 1,
+            "title": "مشکی",
+            "hex_code": "#000000"
+          },
+          "seller": {
+            "id": 41002,
+            "title": "کالا پلاس",
+            "code": "6YJW9",
+            "url": "https://www.digikala.com/seller/6YJW9/",
+            "rating": {
+              "total_rate": 83,
+              "total_count": 82872,
+              "commitment": 100,
+              "no_return": 100,
+              "on_time_shipping": 100
+            },
+            "properties": {
+              "is_trusted": false,
+              "is_official": false,
+              "is_roosta": false,
+              "is_new": false
+            },
+            "stars": 5,
+            "grade": {
+              "label": "عالی",
+              "color": "#00a049"
+            },
+            "logo": null,
+            "registration_date": "8 سال و 2 ماه"
+          },
+          "digiclub": {
+            "point": 150
+          },
+          "insurance": {
+            "title": "بیمه تجهیزات دیجیتال - بیمه سامان",
+            "subtitle": "با قابلیت جبران هزینه های تعمیر و تعویض یکساله",
+            "description": "با بیمه دیجی‌پی، بخش زیادی از خسارت‌های ناشی از حوادث زیر پوشش داده می‌شود (۲۰٪ فرانشیز بر عهده بیمه‌گذار است):",
+            "covers": [
+              {
+                "description": "جبران خسارات ناشی از انواع سرقت",
+                "maxCoverage": null,
+                "maxUseCount": 1
+              },
+              {
+                "description": "جبران خسارات فیزیکی مانند ضربه‌دیدگی، شکستگی و آب‌خوردگی غیرعمدی",
+                "maxCoverage": null,
+                "maxUseCount": null
+              },
+              {
+                "description": "جبران خسارات ناشی از آتش‌سوزی و انفجارهای غیرعمدی",
+                "maxCoverage": null,
+                "maxUseCount": null
+              },
+              {
+                "description": "جبران خسارات ناشی از سوختگی یا نیم‌سوز شدن، القای الکتریکی، اتصال کوتاه و نوسانات ولتاژ غیرعمدی",
+                "maxCoverage": null,
+                "maxUseCount": null
+              },
+              {
+                "description": "همچنین تمام فرایند‌های بیمه دیجی‌پی از خرید تا دریافت خسارت آنلاین است.",
+                "maxCoverage": null,
+                "maxUseCount": null
+              },
+              {
+                "description": "هزینه‌های دستگاه صدمه دیده حتی گوشی‌های آیفون در کمتر از ۴۸ ساعت بعد از اعلام خسارت پرداخت می‌شود.",
+                "maxCoverage": null,
+                "maxUseCount": null
+              },
+              {
+                "description": "تعمیرات توسط متخصصین دیجی‌کالا سرویس انجام می‌شود و هر تعمیر ۳ ماه و هر قطعه تعمیر شده ۶ ماه گارانتی دارد.",
+                "maxCoverage": null,
+                "maxUseCount": null
+              },
+              {
+                "description": "* توجه: برای استفاده از بیمه، بعد از دریافت کالای دیجیتال خود، به سایت دیجی‌پی، بخش بیمه تجهیزات و بعد پنل کاربری مراجعه کنید و بیمه خود را فعال کنید. در غیر این‌صورت امکان دانلود بیمه‌نامه و دریافت خسارت وجود ندارد.",
+                "maxCoverage": null,
+                "maxUseCount": null
+              },
+              {
+                "description": "برای اعلام خسارت وارد پنل کاربری خود در سایت دیجی‌پی شوید و اطلاعات خود را تکمیل کنید.",
+                "maxCoverage": null,
+                "maxUseCount": null
+              },
+              {
+                "description": "برای رفع مشکلات و سوالات خود می‌توانید در هفت روز هفته با شماره ۰۲۱۵۳۹۲۴۰۰۰ تماس بگیرید.",
+                "maxCoverage": null,
+                "maxUseCount": null
+              }
+            ],
+            "base_premium": 540000,
+            "discount": 0,
+            "tax": 54000,
+            "total_premium": 594000,
+            "terms_and_conditions": "بران خسارات ناشی از ضربه خوردگی، شکستگی، آبخوردگی، سرقت با شکست حرز و کلیه حوادث مرتبط با دستگاه خریداری شده با کسورات و فرانشیز حداقل، بدون هزینه استهلاک \r\nارائه خدمات ویژه VIP، بدون هر گونه مراجعه فیزیکی",
+            "before_discount": 1188000,
+            "discount_percent": 50
+          },
+          "price": {
+            "selling_price": 35990000,
+            "rrp_price": 35990000,
+            "order_limit": 5,
+            "is_incredible": false,
+            "is_promotion": false,
+            "is_locked_for_digiplus": false,
+            "bnpl_active": false,
+            "discount_percent": 0,
+            "is_plus_early_access": false,
+            "min_order_limit": 1
+          },
+          "shipment_methods": {
+            "description": "موجود در انبار دیجی‌کالا",
+            "has_lead_time": true,
+            "icon": "cube-badge-available-product",
+            "icon_color": "#0fabc6",
+            "providers": [
+              {
+                "has_lead_time": false,
+                "type": "digikala",
+                "title": "ارسال دیجی‌کالا",
+                "description": "این کالا در انبار دیجی‌کالا موجود و آماده پردازش است و توسط پیک دیجی‌کالا در بازه انتخابی ارسال خواهد شد.",
+                "label": {
+                  "title": "توسط دیجی‌کالا",
+                  "description": null
+                },
+                "price": {
+                  "text": "وابسته به سبد",
+                  "value": null,
+                  "is_free": false
+                },
+                "shipping_mode": "digikala",
+                "delivery_day": "today",
+                "image": "https://dkstatics-public.digikala.com/digikala-static/85db0f29b9d811de333a7980a0b8fb35f10b5758_1667056305.png",
+                "svg_image": "https://dkstatics-public.digikala.com/digikala-static/562b91988f1beec9a5f13aee3cf31cfd7a1a25b1_1748679087.svg"
+              },
+              {
+                "has_lead_time": false,
+                "type": "jet",
+                "title": "ارسال سریع دیجی‌کالا (تهران و کرج)",
+                "description": "اگر سفارش را قبل از ساعت ۶ عصر ثبت کنید، همان روز ارسال می‌شود. در صورت ثبت سفارش بعد از ساعت ۶ عصر، فردا ارسال خواهد شد.",
+                "label": {
+                  "title": "ارسال سریع دیجی‌کالا",
+                  "description": null
+                },
+                "price": {
+                  "text": "وابسته به سبد",
+                  "value": null,
+                  "is_free": false
+                },
+                "shipping_mode": "jet",
+                "delivery_day": "today",
+                "image": "https://dkstatics-public.digikala.com/digikala-static/262c38c0e4990522af759e0016a287508bbc84f6_1684761217.png",
+                "svg_image": "https://dkstatics-public.digikala.com/digikala-static/169e0c18019ceadf022b72c5248fe9a4ed3c68fb_1748679177.svg"
+              }
+            ]
+          },
+          "has_importer_price": false,
+          "manufacture_price_not_exist": false,
+          "has_best_price_in_last_month": false,
+          "buy_box_notices": [],
+          "digiplus": {
+            "services": [
+              "۴ ارسال رایگان دیجیکالا",
+              "۲ ارسال سوپرمارکت",
+              "۴ ارسال رایگان ۴۵ دقیقه‌ای",
+              "پشتیبانی اختصاصی",
+              "ارسال سریع و رایگان دیجی‌کالا (فقط تهران و کرج)"
+            ],
+            "service_list": [
+              {
+                "title": "۴ ارسال رایگان دیجیکالا"
+              },
+              {
+                "title": "۲ ارسال سوپرمارکت"
+              },
+              {
+                "title": "۴ ارسال رایگان ۴۵ دقیقه‌ای"
+              },
+              {
+                "title": "پشتیبانی اختصاصی"
+              },
+              {
+                "title": "ارسال سریع و رایگان دیجی‌کالا (فقط تهران و کرج)"
+              }
+            ],
+            "services_summary": [
+              "ارسال سریع و رایگان دیجی‌کالا (فقط تهران و کرج)"
+            ],
+            "is_jet_eligible": true,
+            "cash_back": 0,
+            "is_general_location_jet_eligible": false,
+            "fast_shipping_text": "ارسال سریع دیجی‌کالا"
+          },
+          "variant_badges": []
+        }
+      ],
+      "videos": [],
+      "category": {
+        "id": 11,
+        "title_fa": "گوشی موبایل",
+        "title_en": "گوشی موبایل",
+        "code": "mobile-phone",
+        "content_description": "",
+        "content_box": "هشدار سامانه همتا: در صورت انجام معامله، از فروشنده کد فعالسازی را گرفته و حتما در حضور ایشان، دستگاه را از طریق #7777*، برای سیمکارت خود فعالسازی نمایید.\r\nآموزش تصویری در آدرس اینترنتی\r\nhmti.ir/06",
+        "return_reason_alert": "امکان برگشت کالا در گروه موبایل با دلیل \"انصراف از خرید\" تنها در صورتی مورد قبول است که پلمب کالا باز نشده باشد.\r\nتمام گوشی‌های دیجی‌کالا ضمانت رجیستری دارند. در صورت وجود مشکل رجیستری، می‌توانید بعد از مهلت قانونی ۳۰ روزه، گوشی خریداری‌شده را مرجوع کنید."
+      },
+      "brand": {
+        "id": 20,
+        "code": "nokia",
+        "title_fa": "نوکیا",
+        "title_en": "Nokia",
+        "url": {
+          "base": null,
+          "uri": "/brand/nokia/"
+        },
+        "visibility": true,
+        "logo": {
+          "storage_ids": [],
+          "url": [
+            "https://dkstatics-public.digikala.com/digikala-brands/4038.png?x-oss-process=image/resize,m_lfit,h_120,w_120/quality,q_80"
+          ],
+          "thumbnail_url": null,
+          "temporary_id": null,
+          "webp_url": null
+        },
+        "is_premium": false,
+        "is_miscellaneous": false,
+        "is_name_similar": false
+      },
+      "review": {
+        "attributes": [
+          {
+            "title": "فناوری صفحه‌ نمایش",
+            "values": [
+              "TFT"
+            ]
+          },
+          {
+            "title": "نوع قرارگیری کارت حافظه",
+            "values": [
+              "اسلات اختصاصی"
+            ]
+          },
+          {
+            "title": "اندازه",
+            "values": [
+              "2"
+            ]
+          }
+        ]
+      },
+      "pros_and_cons": {
+        "advantages": [],
+        "disadvantages": []
+      },
+      "suggestion": {
+        "count": 0,
+        "percentage": 0
+      },
+      "second_default_variant": {
+        "id": 81582206,
+        "lead_time": 0,
+        "rank": 100,
+        "rate": 100,
+        "statistics": {
+          "totally_satisfied": {
+            "rate_count": 1,
+            "rate": 100
+          },
+          "satisfied": {
+            "rate_count": 0,
+            "rate": 0
+          },
+          "neutral": {
+            "rate_count": 0,
+            "rate": 0
+          },
+          "dissatisfied": {
+            "rate_count": 0,
+            "rate": 0
+          },
+          "totally_dissatisfied": {
+            "rate_count": 0,
+            "rate": 0
+          },
+          "total_count": 1,
+          "total_rate": 100
+        },
+        "status": "marketable",
+        "properties": {
+          "is_fast_shipping": false,
+          "is_ship_by_seller": false,
+          "is_multi_warehouse": false,
+          "has_similar_variants": false,
+          "is_rural": false,
+          "in_digikala_warehouse": true,
+          "is_ship_from_user_state": false,
+          "nearby_seller_shipment": false,
+          "support_nearby_shipping_for_user": false,
+          "is_ship_by_seller_restricted": false
+        },
+        "warranty": {
+          "id": 11647,
+          "title_fa": "گارانتی 18 ماهه پارسه پیشتاز ونداد پرداز( جی اس ام سرویس)",
+          "title_en": "گارانتی 18 ماهه پارسه پیشتاز ونداد پرداز( جی اس ام سرویس)"
+        },
+        "themes": [
+          {
+            "value": {
+              "variant_id": 81582206,
+              "id": 1,
+              "title": "مشکی",
+              "code": "#000000",
+              "hexCode": "#000000",
+              "hex_code": "#000000",
+              "nature": "color"
+            },
+            "label": "رنگ",
+            "type": "colored",
+            "is_main": true
+          }
+        ],
+        "color": {
+          "id": 1,
+          "title": "مشکی",
+          "hex_code": "#000000"
+        },
+        "seller": {
+          "id": 41002,
+          "title": "کالا پلاس",
+          "code": "6YJW9",
+          "url": "https://www.digikala.com/seller/6YJW9/",
+          "rating": {
+            "total_rate": 83,
+            "total_count": 82872,
+            "commitment": 100,
+            "no_return": 100,
+            "on_time_shipping": 100
+          },
+          "properties": {
+            "is_trusted": false,
+            "is_official": false,
+            "is_roosta": false,
+            "is_new": false
+          },
+          "stars": 5,
+          "grade": {
+            "label": "عالی",
+            "color": "#00a049"
+          },
+          "logo": null,
+          "registration_date": "8 سال و 2 ماه"
+        },
+        "digiclub": {
+          "point": 150
+        },
+        "insurance": {
+          "title": "بیمه تجهیزات دیجیتال - بیمه سامان",
+          "subtitle": "با قابلیت جبران هزینه های تعمیر و تعویض یکساله",
+          "description": "با بیمه دیجی‌پی، بخش زیادی از خسارت‌های ناشی از حوادث زیر پوشش داده می‌شود (۲۰٪ فرانشیز بر عهده بیمه‌گذار است):",
+          "covers": [
+            {
+              "description": "جبران خسارات ناشی از انواع سرقت",
+              "maxCoverage": null,
+              "maxUseCount": 1
+            },
+            {
+              "description": "جبران خسارات فیزیکی مانند ضربه‌دیدگی، شکستگی و آب‌خوردگی غیرعمدی",
+              "maxCoverage": null,
+              "maxUseCount": null
+            },
+            {
+              "description": "جبران خسارات ناشی از آتش‌سوزی و انفجارهای غیرعمدی",
+              "maxCoverage": null,
+              "maxUseCount": null
+            },
+            {
+              "description": "جبران خسارات ناشی از سوختگی یا نیم‌سوز شدن، القای الکتریکی، اتصال کوتاه و نوسانات ولتاژ غیرعمدی",
+              "maxCoverage": null,
+              "maxUseCount": null
+            },
+            {
+              "description": "همچنین تمام فرایند‌های بیمه دیجی‌پی از خرید تا دریافت خسارت آنلاین است.",
+              "maxCoverage": null,
+              "maxUseCount": null
+            },
+            {
+              "description": "هزینه‌های دستگاه صدمه دیده حتی گوشی‌های آیفون در کمتر از ۴۸ ساعت بعد از اعلام خسارت پرداخت می‌شود.",
+              "maxCoverage": null,
+              "maxUseCount": null
+            },
+            {
+              "description": "تعمیرات توسط متخصصین دیجی‌کالا سرویس انجام می‌شود و هر تعمیر ۳ ماه و هر قطعه تعمیر شده ۶ ماه گارانتی دارد.",
+              "maxCoverage": null,
+              "maxUseCount": null
+            },
+            {
+              "description": "* توجه: برای استفاده از بیمه، بعد از دریافت کالای دیجیتال خود، به سایت دیجی‌پی، بخش بیمه تجهیزات و بعد پنل کاربری مراجعه کنید و بیمه خود را فعال کنید. در غیر این‌صورت امکان دانلود بیمه‌نامه و دریافت خسارت وجود ندارد.",
+              "maxCoverage": null,
+              "maxUseCount": null
+            },
+            {
+              "description": "برای اعلام خسارت وارد پنل کاربری خود در سایت دیجی‌پی شوید و اطلاعات خود را تکمیل کنید.",
+              "maxCoverage": null,
+              "maxUseCount": null
+            },
+            {
+              "description": "برای رفع مشکلات و سوالات خود می‌توانید در هفت روز هفته با شماره ۰۲۱۵۳۹۲۴۰۰۰ تماس بگیرید.",
+              "maxCoverage": null,
+              "maxUseCount": null
+            }
+          ],
+          "base_premium": 540000,
+          "discount": 0,
+          "tax": 54000,
+          "total_premium": 594000,
+          "terms_and_conditions": "بران خسارات ناشی از ضربه خوردگی، شکستگی، آبخوردگی، سرقت با شکست حرز و کلیه حوادث مرتبط با دستگاه خریداری شده با کسورات و فرانشیز حداقل، بدون هزینه استهلاک \r\nارائه خدمات ویژه VIP، بدون هر گونه مراجعه فیزیکی",
+          "before_discount": 1188000,
+          "discount_percent": 50
+        },
+        "price": {
+          "selling_price": 35990000,
+          "rrp_price": 35990000,
+          "order_limit": 5,
+          "is_incredible": false,
+          "is_promotion": false,
+          "is_locked_for_digiplus": false,
+          "bnpl_active": false,
+          "discount_percent": 0,
+          "is_plus_early_access": false,
+          "min_order_limit": 1
+        },
+        "shipment_methods": {
+          "description": "موجود در انبار دیجی‌کالا",
+          "has_lead_time": true,
+          "icon": "cube-badge-available-product",
+          "icon_color": "#0fabc6",
+          "providers": [
+            {
+              "has_lead_time": false,
+              "type": "digikala",
+              "title": "ارسال دیجی‌کالا",
+              "description": "این کالا در انبار دیجی‌کالا موجود و آماده پردازش است و توسط پیک دیجی‌کالا در بازه انتخابی ارسال خواهد شد.",
+              "label": {
+                "title": "توسط دیجی‌کالا",
+                "description": null
+              },
+              "price": {
+                "text": "وابسته به سبد",
+                "value": null,
+                "is_free": false
+              },
+              "shipping_mode": "digikala",
+              "delivery_day": "today",
+              "image": "https://dkstatics-public.digikala.com/digikala-static/85db0f29b9d811de333a7980a0b8fb35f10b5758_1667056305.png",
+              "svg_image": "https://dkstatics-public.digikala.com/digikala-static/562b91988f1beec9a5f13aee3cf31cfd7a1a25b1_1748679087.svg"
+            },
+            {
+              "has_lead_time": false,
+              "type": "jet",
+              "title": "ارسال سریع دیجی‌کالا (تهران و کرج)",
+              "description": "اگر سفارش را قبل از ساعت ۶ عصر ثبت کنید، همان روز ارسال می‌شود. در صورت ثبت سفارش بعد از ساعت ۶ عصر، فردا ارسال خواهد شد.",
+              "label": {
+                "title": "ارسال سریع دیجی‌کالا",
+                "description": null
+              },
+              "price": {
+                "text": "وابسته به سبد",
+                "value": null,
+                "is_free": false
+              },
+              "shipping_mode": "jet",
+              "delivery_day": "today",
+              "image": "https://dkstatics-public.digikala.com/digikala-static/262c38c0e4990522af759e0016a287508bbc84f6_1684761217.png",
+              "svg_image": "https://dkstatics-public.digikala.com/digikala-static/169e0c18019ceadf022b72c5248fe9a4ed3c68fb_1748679177.svg"
+            }
+          ]
+        },
+        "has_importer_price": false,
+        "manufacture_price_not_exist": false,
+        "has_best_price_in_last_month": false,
+        "buy_box_notices": [],
+        "digiplus": {
+          "services": [
+            "۴ ارسال رایگان دیجیکالا",
+            "۲ ارسال سوپرمارکت",
+            "۴ ارسال رایگان ۴۵ دقیقه‌ای",
+            "پشتیبانی اختصاصی",
+            "ارسال سریع و رایگان دیجی‌کالا (فقط تهران و کرج)"
+          ],
+          "service_list": [
+            {
+              "title": "۴ ارسال رایگان دیجیکالا"
+            },
+            {
+              "title": "۲ ارسال سوپرمارکت"
+            },
+            {
+              "title": "۴ ارسال رایگان ۴۵ دقیقه‌ای"
+            },
+            {
+              "title": "پشتیبانی اختصاصی"
+            },
+            {
+              "title": "ارسال سریع و رایگان دیجی‌کالا (فقط تهران و کرج)"
+            }
+          ],
+          "services_summary": [
+            "ارسال سریع و رایگان دیجی‌کالا (فقط تهران و کرج)"
+          ],
+          "is_jet_eligible": true,
+          "cash_back": 0,
+          "is_general_location_jet_eligible": false,
+          "fast_shipping_text": "ارسال سریع دیجی‌کالا"
+        },
+        "variant_badges": []
+      },
+      "questions_count": 14,
+      "comments_count": 1,
+      "comments_overview": [],
+      "breadcrumb": [
+        {
+          "category_id": null,
+          "title": "دیجی‌کالا",
+          "url": {
+            "base": null,
+            "uri": "/"
+          }
+        },
+        {
+          "category_id": 1,
+          "title": "موبایل",
+          "url": {
+            "base": null,
+            "uri": "/main/mobile/"
+          }
+        },
+        {
+          "category_id": 11,
+          "title": "گوشی موبایل",
+          "url": {
+            "base": null,
+            "uri": "/search/category-mobile-phone/"
+          }
+        },
+        {
+          "category_id": null,
+          "title": "گوشی موبایل نوکیا مدل 108 2024 دو سیم کارت ظرفیت 4 مگابایت و رم 4 مگابایت - مونتاژ ایران تحت لیسانس نوکیا",
+          "url": {
+            "base": null,
+            "uri": "/product/dkp-22258282/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D9%86%D9%88%DA%A9%DB%8C%D8%A7-%D9%85%D8%AF%D9%84-108-2024-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-4-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-4-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%85%D9%88%D9%86%D8%AA%D8%A7%DA%98-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%AA%D8%AD%D8%AA-%D9%84%DB%8C%D8%B3%D8%A7%D9%86%D8%B3-%D9%86%D9%88%DA%A9%DB%8C%D8%A7"
+          }
+        }
+      ],
+      "has_size_guide": false,
+      "specifications": [
+        {
+          "title": "مشخصات کلی",
+          "attributes": [
+            {
+              "title": "نوع گوشی موبایل",
+              "values": [
+                "سایر سیستم عامل ها "
+              ]
+            },
+            {
+              "title": "دسته ‌بندی",
+              "values": [
+                "اقتصادی "
+              ]
+            },
+            {
+              "title": "مدل",
+              "values": [
+                "108 2024 "
+              ]
+            },
+            {
+              "title": "زمان معرفی",
+              "values": [
+                "27 اکتبر 2024 "
+              ]
+            },
+            {
+              "title": "ابعاد",
+              "values": [
+                "126.1x50.5 میلی‌متر"
+              ]
+            },
+            {
+              "title": "وزن",
+              "values": [
+                "93 گرم"
+              ]
+            },
+            {
+              "title": "تعداد سیم کارت",
+              "values": [
+                "دو عدد"
+              ]
+            },
+            {
+              "title": "ویژگی‌های کلیدی",
+              "values": [
+                "دارای چراغ قوه دوگانه/-\nامکان ذخیره 2000 مخاطب/-\nپشتیبانی از رادیو بدون نیاز به هندزفری/-\nامکان پخش موسیقی/-\nامکان ضبط صدا "
+              ]
+            }
+          ]
+        },
+        {
+          "title": "صفحه نمایش",
+          "attributes": [
+            {
+              "title": "فناوری صفحه‌ نمایش",
+              "values": [
+                "TFT "
+              ]
+            },
+            {
+              "title": "اندازه",
+              "values": [
+                "2 اینچ"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "پردازنده",
+          "attributes": [
+            {
+              "title": "تراشه",
+              "values": [
+                "RTOS "
+              ]
+            }
+          ]
+        },
+        {
+          "title": "حافظه",
+          "attributes": [
+            {
+              "title": "حافظه داخلی",
+              "values": [
+                "4 مگابایت "
+              ]
+            },
+            {
+              "title": "مقدار RAM",
+              "values": [
+                "4 مگابایت "
+              ]
+            },
+            {
+              "title": "پشتیبانی از کارت حافظه",
+              "values": [
+                "microSD "
+              ]
+            },
+            {
+              "title": "نوع قرارگیری کارت حافظه",
+              "values": [
+                "اسلات اختصاصی "
+              ]
+            },
+            {
+              "title": "حداکثر ظرفیت کارت حافظه",
+              "values": [
+                "32 گیگابایت "
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ارتباطات",
+          "attributes": [
+            {
+              "title": "شبکه‌های مخابراتی",
+              "values": [
+                "2G "
+              ]
+            },
+            {
+              "title": "رادیو",
+              "values": [
+                "موج FM به صورت بی‌سیم و باسیم "
+              ]
+            },
+            {
+              "title": "درگاه‌ها و فناوری‌های ارتباطی",
+              "values": [
+                "microUSB "
+              ]
+            }
+          ]
+        },
+        {
+          "title": "دوربین",
+          "attributes": [
+            {
+              "title": "تعداد دوربین‌های پشت گوشی",
+              "values": [
+                "بدون دوربین "
+              ]
+            },
+            {
+              "title": "فلش",
+              "values": [
+                "Dual LED "
+              ]
+            }
+          ]
+        },
+        {
+          "title": "صدا",
+          "attributes": [
+            {
+              "title": "اسپیکر",
+              "values": [
+                "مونو "
+              ]
+            },
+            {
+              "title": "خروجی صدا",
+              "values": [
+                "جک 3.5 میلی‌متری صدا "
+              ]
+            }
+          ]
+        },
+        {
+          "title": "امکانات نرم افزاری",
+          "attributes": []
+        },
+        {
+          "title": "سایر مشخصات",
+          "attributes": [
+            {
+              "title": "ظرفیت باتری",
+              "values": [
+                "1000 میلی آمپر ساعت"
+              ]
+            },
+            {
+              "title": "قابلیت‌های شارژ",
+              "values": [
+                "شارژ باسیم "
+              ]
+            },
+            {
+              "title": "اقلام همراه",
+              "values": [
+                "دفترچه‌ راهنما ",
+                "شارژر "
+              ]
+            }
+          ]
+        }
+      ],
+      "expert_reviews": {
+        "attributes": [],
+        "description": "",
+        "short_review": "",
+        "admin_rates": [],
+        "review_sections": [],
+        "technical_properties": {
+          "advantages": [],
+          "disadvantages": []
+        }
+      },
+      "meta": {
+        "brand_category_url": {
+          "base": null,
+          "uri": "/search/category-mobile-phone/nokia/"
+        }
+      },
+      "last_comments": [
+        {
+          "id": 88821143,
+          "title": null,
+          "body": "رنگهای بنفش و آبی شو بزارید",
+          "created_at": "7 مرداد 1405",
+          "rate": 0,
+          "reactions": {
+            "likes": 1,
+            "dislikes": 0
+          },
+          "files": [],
+          "is_buyer": false,
+          "user_name": "کاربر دیجی‌کالا",
+          "is_anonymous": true,
+          "purchased_item": [],
+          "advantages": [],
+          "disadvantages": [],
+          "relative_date": "دیروز"
+        }
+      ],
+      "last_questions": [
+        {
+          "id": 10144894,
+          "status": "accepted",
+          "text": "هر کسی این گوشی رو تهیه کرده لطفاً از فونت پیامک‌ها عکس بذاره .",
+          "answer_count": 0,
+          "sender": "H H",
+          "created_at": "8 مرداد 1405"
+        },
+        {
+          "id": 10139767,
+          "status": "accepted",
+          "text": "سلام. برا این گوشی سیمکارت باید میکرو باشه؟",
+          "answer_count": 1,
+          "sender": "مریم محمدظاهری",
+          "created_at": "7 مرداد 1405"
+        },
+        {
+          "id": 10136011,
+          "status": "accepted",
+          "text": "سلام \nصندوق دریافت پیامک نامحدود هست یا بعد از ۱۰ تا پیامک پر میشه ؟",
+          "answer_count": 0,
+          "sender": "حسین افتخاری",
+          "created_at": "7 مرداد 1405"
+        }
+      ],
+      "tags": [],
+      "digify_touchpoint": "",
+      "show_type": "normal",
+      "cars_reservable": false,
+      "has_offline_shop_stock": false,
+      "has_style_try_on": false,
+      "st_cmp_tacker": {
+        "neo": "2hVCNwzk7sJJ3HAg9YgK5WpSb4LhF0gbyKbGQlVctUf2WVd5XXyhQhwBmcOzk7JPJqx8U2Wc1yVlT03Fjq8nwl5WM4aZLUn9YGBx4HhL9z3biGCSZGhftttGhkio7wPnyrZ1l5ZPjTcShk0XHKH1Ec7SWLb8fWAjko4BaIu6HjB3VgFBAUcwz6JiaIa4VA2zyUFCC6SEwAd9vaES0aFrGLKiFafO",
+        "cx": "eyJjaXBoZXJ0ZXh0Ijoib0dIaDczTG5vN2RlSVdLVm44bUpERm55WVwvZXVNdDFVQ2xpTnhMSDBaUWVod2ZJOUVod3lMZkxxdjBMYmk4TGVqODNrMzBicXJnMks0M083WnBkQ3U1ZWhoa016U3VHMDhSRnN4Q0hOamt1bzlsMWM5RmRLU2",
+        "dx": "hmTkJtQkk4a3BsY1VmUFlsbit1VHhOdnR1NU9RTVZOQThnYXVqSlwvN2pSQ2N5N29RYUxNVEVQaXFPZ0RMNHNFa1ZLR1hZM0R5K0d3TXl4QXJjSlpDMVZBMVwvdjJxTXpjclJqTSttMnl4M1wvRFVBTlpOMmJDTG9wbG83UmVXemFLZ3ZQ",
+        "data-fx": "eGVcL2JDZWdEcVYwcnBOVFNDbDNEMklDTlwvUlRcL3cwVSs1dDFBcHNmKzJvd3ZPOGE5VjRsdnE4KzI1WVlLXC9maWtxZ08ycThXTlRJZllpVUtpYVNtSWNkT09aTWFWMEtHY1NJS0J5TlwvU3VQXC9FSHJTRFRuSHNpc2Fia1I1RTVFVT",
+        "zero": "ByZHU1ZmVZOG11bm9cLzB2eFJ1T1pBN2Z3WnJBK1NzQ0h2SG9qNzlnZnpkOEE3K0d5ZDgxVGg1SUUzUHczUDFVdDd0OTFaV1JyIiwiaXYiOiJiMTI3ZTNjMzM3Y2JiZmQ1ZTQ5NzVmOTkxZmZlYzdkNSIsIml0ZXJhdGlvbnMiOjk5OX0="
+      }
+    },
+    "data_layer": {
+      "event": "eec.productDetail",
+      "ecommerce": {
+        "detail": {
+          "actionField": {
+            "list": "category-گوشی موبایل"
+          },
+          "products": [
+            {
+              "brand": "نوکیا",
+              "category": "[MO,گوشی موبایل]",
+              "metric6": 1,
+              "dimension2": 0,
+              "dimension6": 0,
+              "dimension7": "none",
+              "dimension9": 5,
+              "dimension11": 0,
+              "dimension20": "marketable",
+              "item_category2": "موبایل",
+              "item_category3": "گوشی موبایل",
+              "item_category4": "",
+              "item_category5": "",
+              "name": "گوشی موبایل نوکیا مدل 108 2024 دو سیم کارت ظرفیت 4 مگابایت و رم 4 مگابایت - مونتاژ ایران تحت لیسانس نوکیا",
+              "id": 22258282,
+              "price": 35990000,
+              "variant_id": 81582206,
+              "metric8": 1,
+              "dimension3": "marketplace",
+              "dimension10": 0,
+              "dimension15": 0,
+              "metric15": 0,
+              "metric11": 1,
+              "metric12": 0
+            }
+          ]
+        }
+      }
+    },
+    "seo": {
+      "title": "قیمت و خرید گوشی موبایل نوکیا مدل 108 2024 دو سیم کارت ظرفیت 4 مگابایت و رم 4 مگابایت - مونتاژ ایران تحت لیسانس نوکیا",
+      "description": "خرید اینترنتی گوشی موبایل نوکیا مدل 108 2024 دو سیم کارت ظرفیت 4 مگابایت و رم 4 مگابایت - مونتاژ ایران تحت لیسانس نوکیا با رنگبندی مشکی به همراه مقایسه، بررسی مشخصات و لیست قیمت امروز در فروشگاه اینترنتی دیجی‌کالا",
+      "twitter_card": {
+        "title": "گوشی موبایل نوکیا مدل 108 2024 دو سیم کارت ظرفیت 4 مگابایت و رم 4 مگابایت - مونتاژ ایران تحت لیسانس نوکیا",
+        "image": "https://dkstatics-public.digikala.com/digikala-products/66920d2fa5819aeb19966c85ffcc0dd142826b7a_1785045676.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60",
+        "price": 0,
+        "description": "خرید اینترنتی گوشی موبایل نوکیا مدل 108 2024 دو سیم کارت ظرفیت 4 مگابایت و رم 4 مگابایت - مونتاژ ایران تحت لیسانس نوکیا با رنگبندی مشکی به همراه مقایسه، بررسی مشخصات و لیست قیمت امروز در فروشگاه اینترنتی دیجی‌کالا"
+      },
+      "open_graph": {
+        "title": "گوشی موبایل نوکیا مدل 108 2024 دو سیم کارت ظرفیت 4 مگابایت و رم 4 مگابایت - مونتاژ ایران تحت لیسانس نوکیا",
+        "url": "https://www.digikala.com/product/dkp-22258282/گوشی-موبایل-نوکیا-مدل-108-2024-دو-سیم-کارت-ظرفیت-4-مگابایت-و-رم-4-مگابایت-مونتاژ-ایران-تحت-لیسانس-نوکیا",
+        "image": "https://dkstatics-public.digikala.com/digikala-products/66920d2fa5819aeb19966c85ffcc0dd142826b7a_1785045676.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60",
+        "availability": "in stock",
+        "type": "product",
+        "site": "دیجی‌کالا",
+        "price": 0,
+        "description": null
+      },
+      "header": {
+        "title": "گوشی موبایل نوکیا مدل 108 2024 دو سیم کارت ظرفیت 4 مگابایت و رم 4 مگابایت - مونتاژ ایران تحت لیسانس نوکیا",
+        "description": "خرید اینترنتی گوشی موبایل نوکیا مدل 108 2024 دو سیم کارت ظرفیت 4 مگابایت و رم 4 مگابایت - مونتاژ ایران تحت لیسانس نوکیا با رنگبندی مشکی به همراه مقایسه، بررسی مشخصات و لیست قیمت امروز در فروشگاه اینترنتی دیجی‌کالا",
+        "canonical_url": "https://www.digikala.com/product/dkp-22258282/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D9%86%D9%88%DA%A9%DB%8C%D8%A7-%D9%85%D8%AF%D9%84-108-2024-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-4-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-4-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%85%D9%88%D9%86%D8%AA%D8%A7%DA%98-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%AA%D8%AD%D8%AA-%D9%84%DB%8C%D8%B3%D8%A7%D9%86%D8%B3-%D9%86%D9%88%DA%A9%DB%8C%D8%A7"
+      },
+      "markup_schema": [
+        {
+          "@type": "Product",
+          "@context": "https://www.schema.org",
+          "name": "گوشی موبایل نوکیا مدل 108 2024 دو سیم کارت ظرفیت 4 مگابایت و رم 4 مگابایت - مونتاژ ایران تحت لیسانس نوکیا",
+          "alternateName": "Nokia 108 2024 Dual SIM Storage 4MB And RAM 4MB - Assembled in Iran under The license of Nokia",
+          "image": [
+            "https://dkstatics-public.digikala.com/digikala-products/9d2ec07a6097fe62cc4c64c7c88180736acb765e_1785045675.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+            "https://dkstatics-public.digikala.com/digikala-products/c4618aba7d4a9d228a87effc097e4af3ec6d7280_1785045676.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+            "https://dkstatics-public.digikala.com/digikala-products/cb3cf387a8c09b4344a4eebce039de5749ee9c5c_1785068241.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+            "https://dkstatics-public.digikala.com/digikala-products/8cc832c30951988719541542ffbb5e6ef3dbe438_1785068246.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+            "https://dkstatics-public.digikala.com/digikala-products/2bba18b6c37ded52b5a26c6f2a26a6e9ee7a6fc0_1785068246.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+            "https://dkstatics-public.digikala.com/digikala-products/c6991e49f7072ec51da3e2300c65506538568cff_1785068249.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+            "https://dkstatics-public.digikala.com/digikala-products/ba77dce06f25589b7de56bf4d9e6b0fa2ccbbe47_1785068253.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+            "https://dkstatics-public.digikala.com/digikala-products/ad12c3ef0b8355eec9faae7b26e81b0f7fa126fe_1785068256.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+            "https://dkstatics-public.digikala.com/digikala-products/836662c0e911acf73be3baee8f324d0baa11e867_1785068256.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+            "https://dkstatics-public.digikala.com/digikala-products/f21bf2d949cba797f1fd44de8f9b8920ede01721_1785068258.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+            "https://dkstatics-public.digikala.com/digikala-products/9860a80bbad9f7b559bdfd439e67827c87c66876_1785068262.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+            "https://dkstatics-public.digikala.com/digikala-products/ef63a0db94fdaea208da10381eb9cfd7effa0ba6_1785068266.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+            "https://dkstatics-public.digikala.com/digikala-products/480db5a23e4646e53282ca7ff1c3c4c2466f8b36_1785068266.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+            "https://dkstatics-public.digikala.com/digikala-products/d66c515c55d90c58ec198d33c4d51bb2192127ca_1785068269.jpg?x-oss-process=image/resize,h_1600/quality,q_80"
+          ],
+          "description": "خرید اینترنتی گوشی موبایل نوکیا مدل 108 2024 دو سیم کارت ظرفیت 4 مگابایت و رم 4 مگابایت - مونتاژ ایران تحت لیسانس نوکیا با رنگبندی مشکی به همراه مقایسه، بررسی مشخصات و لیست قیمت امروز در فروشگاه اینترنتی دیجی‌کالا",
+          "mpn": 22258282,
+          "sku": 22258282,
+          "category": "https://www.digikala.com/search/category-mobile-phone/",
+          "brand": {
+            "@type": "Brand",
+            "name": "نوکیا",
+            "url": "https://www.digikala.com/brand/nokia/",
+            "@id": "https://www.digikala.com/brand/nokia/#brand"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5,
+            "reviewCount": 1
+          },
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "IRR",
+            "price": 35990000,
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          },
+          "review": {
+            "@type": "Review",
+            "reviewRating": {
+              "@type": "Rating",
+              "bestRating": 5,
+              "ratingValue": 0
+            },
+            "author": {
+              "@type": "Person",
+              "name": "کاربر دیجی‌کالا"
+            },
+            "datePublished": "2026-07-29",
+            "reviewBody": "رنگهای بنفش و آبی شو بزارید",
+            "name": ""
+          }
+        },
+        [
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "فروشگاه اینترنتی دیجی‌کالا",
+                "item": {
+                  "@type": "Corporation",
+                  "@id": "https://www.digikala.com/#corporation"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "موبایل",
+                "item": "https://www.digikala.com/main/mobile/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "گوشی موبایل",
+                "item": "https://www.digikala.com/search/category-mobile-phone/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "گوشی موبایل نوکیا مدل 108 2024 دو سیم کارت ظرفیت 4 مگابایت و رم 4 مگابایت - مونتاژ ایران تحت لیسانس نوکیا"
+              }
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "نوکیا",
+                "item": {
+                  "@type": "Brand",
+                  "@id": "https://www.digikala.com/brand/nokia/#brand"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "گوشی موبایل نوکیا",
+                "item": "https://www.digikala.com/search/category-mobile-phone/nokia/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "گوشی موبایل نوکیا مدل 108 2024 دو سیم کارت ظرفیت 4 مگابایت و رم 4 مگابایت - مونتاژ ایران تحت لیسانس نوکیا"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "intrack": {
+      "eventName": "product_detail_pageview",
+      "eventData": {
+        "currency": "IRR",
+        "deviceType": "desktop",
+        "name": "گوشی موبایل نوکیا مدل 108 2024 دو سیم کارت ظرفیت 4 مگابایت و رم 4 مگابایت - مونتاژ ایران تحت لیسانس نوکیا",
+        "productId": 22258282,
+        "productImageUrl": [
+          "https://dkstatics-public.digikala.com/digikala-products/66920d2fa5819aeb19966c85ffcc0dd142826b7a_1785045676.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+        ],
+        "quantity": null,
+        "leafCategory": "گوشی موبایل",
+        "unitPrice": 35990000,
+        "url": "/product/dkp-22258282/گوشی-موبایل-نوکیا-مدل-108-2024-دو-سیم-کارت-ظرفیت-4-مگابایت-و-رم-4-مگابایت-مونتاژ-ایران-تحت-لیسانس-نوکیا",
+        "supplyCategory": "MO",
+        "categoryLevel1": "موبایل",
+        "categoryLevel2": "گوشی موبایل",
+        "categoryLevel3": "",
+        "categoryLevel4": "",
+        "categoryLevel5": ""
+      },
+      "userId": null
+    },
+    "landing_touchpoint": [],
+    "dynamic_touch_points": [],
+    "promotion_banner": {
+      "product_promotion": null,
+      "dkjet_promotion": null
+    },
+    "bigdata_tracker_data": {
+      "page_name": "product",
+      "page_info": {
+        "product_id": 22258282
+      }
+    },
+    "dynamic_pdp_carousel": [],
+    "dk_service": []
+  }
+}

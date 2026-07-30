@@ -1,0 +1,26 @@
+{
+  "orderInformation": {
+    "km": 17203,
+    "bodyCondition": "سالم",
+    "color": "مشکی",
+    "visitingPlace": "تهران، همیلا سنتر",
+    "gearBox": "اتومات"
+  },
+  "carInformation": {
+    "carBrandName": "ایران خودرو",
+    "carModelName": "ری را",
+    "carTypeName": "بنزینی",
+    "carYear": 1404,
+    "price": 3430000000,
+    "status": 1,
+    "comingSoon": false,
+    "offerPrice": 3600000000,
+    "offerPriceDifferencePercentage": 5
+  },
+  "breadcrumbList": [
+    {"text": "آگهی", "link": "/cars-for-sale/irankhodro/reera/3286814"}
+  ],
+  "gallery": [
+    {"largeImage": "https://cdn.hamrah-mechanic.com/example.jpg", "isMainImage": true}
+  ]
+}

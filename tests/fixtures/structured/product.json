@@ -1,0 +1,18 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "sku": "abc-42",
+  "name": "  گوشي\u200c موبايل آزمایشی ",
+  "url": "/product/abc-42",
+  "image": ["/images/42.jpg"],
+  "brand": {"@type": "Brand", "name": "برند آزمایشی"},
+  "aggregateRating": {"ratingValue": "4.2", "reviewCount": "۱۲"},
+  "offers": {
+    "@type": "Offer",
+    "price": "۱۲۰۰۰۰",
+    "highPrice": "۱۵۰۰۰۰",
+    "priceCurrency": "IRT",
+    "availability": "https://schema.org/InStock",
+    "seller": {"name": "فروشنده نمونه"}
+  }
+}
