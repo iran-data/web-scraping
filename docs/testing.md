@@ -60,8 +60,7 @@ The workflow:
 4. runs active live source contracts at low concurrency;
 5. uploads a JUnit report for 30 days, even when tests fail.
 
-Snapp Shop is excluded while its public flow returns HTTP 403. Safarmarket flight/train and
-Safar724 bus contracts are included.
+Safarmarket flight/train and Safar724 bus contracts are included.
 
 ## Interpreting weekly failures
 

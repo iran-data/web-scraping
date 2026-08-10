@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from argparse import Namespace
 from collections.abc import Mapping, Sequence
-from datetime import UTC, datetime
+from datetime import UTC, date, datetime
 from decimal import Decimal
 from enum import StrEnum
 
@@ -142,9 +142,17 @@ def test_jsonable_recurses_through_public_types() -> None:
         url="https://example.test/1",
         current_price=Decimal("12.5"),
         scraped_at=datetime(2026, 1, 2, tzinfo=UTC),
-        metadata={"kind": Example.VALUE, "nested": (Decimal("2"),)},
+        metadata={
+            "kind": Example.VALUE,
+            "nested": (Decimal("2"),),
+            "departure_date": date(2026, 1, 3),
+        },
     )
     data = jsonable(product)
     assert data["current_price"] == "12.5"
     assert data["scraped_at"] == "2026-01-02 00:00:00+00:00"
-    assert data["metadata"] == {"kind": "value", "nested": ["2"]}
+    assert data["metadata"] == {
+        "kind": "value",
+        "nested": ["2"],
+        "departure_date": "2026-01-03",
+    }

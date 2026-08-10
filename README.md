@@ -7,7 +7,6 @@ commerce category provides normalized product and vehicle data from:
 - Technolife
 - Snapp Market
 - Digikala Jet
-- Snapp Shop
 - Torob
 - Bama
 - Hamrah Mechanic
@@ -25,6 +24,8 @@ offers.
 - [Testing and weekly CI](docs/testing.md)
 - [Architecture](docs/architecture.md)
 - [Adding a source](docs/adding-a-source.md)
+- [Changelog](CHANGELOG.md)
+- [Security policy](SECURITY.md)
 
 The [documentation index](docs/index.md) groups these pages by user, operator, and contributor
 workflows.
@@ -37,7 +38,6 @@ workflows.
 | Technolife | Commerce | Yes | Yes | Pagination and verified sorts | Yes |
 | Snapp Market | Commerce | Yes | Yes | Central-Tehran inventory context | Yes |
 | Digikala Jet | Commerce | Yes | Yes | Central-Tehran inventory context | Yes |
-| Snapp Shop | Commerce | Blocked | Blocked | Public flow currently returns 403 | No |
 | Torob | Commerce | Yes | Yes | Offer aggregation and price sorts | Yes |
 | Bama | Commerce | Yes | Yes | Market/factory/agency reference prices | Yes |
 | Hamrah Mechanic | Commerce | Yes | Yes | Vehicle listings and metadata | Yes |
@@ -50,9 +50,8 @@ typed errors rather than returning misleading data.
 
 The project favors first-party JSON and schema.org data. Digikala, Technolife, Digikala Jet,
 Snapp Market, Torob, Bama, and Hamrah Mechanic have dedicated typed parsers backed by inspected
-first-party contracts. Snapp Shop remains registered but is currently blocked by an HTTP 403
-edge challenge. See [site inspection notes](docs/sites.md) and the captured inspection reports
-under `docs/inspections/`.
+first-party contracts. See [site inspection notes](docs/sites.md) and the captured inspection
+reports under `docs/inspections/`.
 
 ## Architecture
 
@@ -151,8 +150,6 @@ uv run web-scraping tickets train 1 2 2026-08-05
 uv run web-scraping tickets bus 11320000 31310000 2026-08-05
 uv run web-scraping product hamrahmechanic \
   "https://www.hamrah-mechanic.com/cars-for-sale/hyundai/sonatahybrid/3296021/"
-uv run web-scraping --visible --session playwright/.auth/shop.json \
-  search snappshop "هدفون"
 ```
 
 Results are UTF-8 JSON on stdout. Structured logs go through Python logging.
@@ -254,8 +251,8 @@ runs every Monday at 03:17 UTC and can also be started manually from GitHub Acti
 - a separate Bama factory-price contract;
 - JUnit report upload retained for 30 days.
 
-Snapp Shop is excluded while its public flow consistently returns HTTP 403. The live suite uses
-one browser operation at a time and a four-second minimum interval per source operation.
+The live suite uses one browser operation at a time and a four-second minimum interval per
+source operation.
 
 Run the same checks locally:
 
@@ -289,7 +286,6 @@ minimum tests, security rules, and a review checklist.
 - Iranian storefronts change frequently and can vary by location, account, and experiment.
 - Snapp Market and Digikala Jet use a default central-Tehran location
   (`35.7005, 51.3917`) for useful inventory.
-- Snapp Shop returned an edge challenge during the documented inspection.
 - Supported sorting varies by site. In particular, Snapp Market currently has only verified
   relevance ordering; unsupported sort requests raise `UnsupportedFeatureError`.
 - Digikala, Technolife, Digikala Jet, Snapp Market, Torob, and Bama accept bare identifiers.

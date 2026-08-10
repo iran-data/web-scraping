@@ -129,12 +129,9 @@ All command results are JSON encoded as UTF-8.
 
 If a site asks for manual interaction:
 
-```bash
-uv run web-scraping \
-  --visible \
-  --session playwright/.auth/source.json \
-  search snappshop "هدفون"
-```
+Set `headless=False` in `ScraperConfig`, or pass `--visible` before a CLI command, when a
+supported source requires manual browser interaction. Configure `--session` to preserve the
+resulting browser state.
 
 Complete the challenge yourself. The browser storage state is saved on shutdown and reused on
 the next run. Never commit `playwright/.auth/`; it can contain authorization material.

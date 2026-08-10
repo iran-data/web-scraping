@@ -2,7 +2,8 @@
 
 from __future__ import annotations
 
-from collections.abc import Mapping, Sequence
+import asyncio
+from collections.abc import Callable, Mapping, Sequence
 from datetime import datetime, timedelta
 from decimal import Decimal
 from typing import Any
@@ -43,7 +44,11 @@ class SafarmarketAdapter(TransportationSource):
     async def search_flights(self, query: TicketSearchQuery) -> TicketSearchResult:
         self._require_mode(query, TransportMode.FLIGHT)
         url = self.flight_search_url(query)
-        payload = await self._capture_json(url, "/api/flight/v3/search")
+        payload = await self._capture_json(
+            url,
+            "/api/flight/v3/search",
+            accept_payload=self._has_flight_contract,
+        )
         result = payload.get("result")
         flights = result.get("flights") if isinstance(result, Mapping) else None
         if not isinstance(flights, list):
@@ -54,10 +59,16 @@ class SafarmarketAdapter(TransportationSource):
     async def search_trains(self, query: TicketSearchQuery) -> TicketSearchResult:
         self._require_mode(query, TransportMode.TRAIN)
         url = self.train_search_url(query)
-        payload = await self._capture_json(url, "/api/train/v2/search")
+        payload = await self._capture_json(
+            url,
+            "/api/train/v2/search",
+            accept_payload=self._has_train_contract,
+        )
         outer = payload.get("payload")
         result = outer.get("result") if isinstance(outer, Mapping) else None
         trains = result.get("depArr") if isinstance(result, Mapping) else None
+        if isinstance(result, Mapping) and "depArr" in result and trains is None:
+            trains = []
         if not isinstance(trains, list):
             raise LayoutChangedError("Safarmarket train response has no payload.result.depArr list")
         items = tuple(
@@ -70,31 +81,68 @@ class SafarmarketAdapter(TransportationSource):
             "Safarmarket bus search is not supported; use the Safar724 transportation source"
         )
 
-    async def _capture_json(self, url: str, endpoint: str) -> Mapping[str, Any]:
+    async def _capture_json(
+        self,
+        url: str,
+        endpoint: str,
+        *,
+        accept_payload: Callable[[Mapping[str, Any]], bool] | None = None,
+    ) -> Mapping[str, Any]:
         page = await self.session.new_page()
+        responses: asyncio.Queue[Response] = asyncio.Queue()
+
+        def collect(response: Response) -> None:
+            if endpoint in response.url:
+                responses.put_nowait(response)
+
+        page.on("response", collect)
         try:
 
-            async def operation() -> Response:
-                async with page.expect_response(
-                    lambda response: endpoint in response.url,
-                    timeout=self.config.navigation_timeout_ms,
-                ) as pending:
-                    navigation = await page.goto(url, wait_until="domcontentloaded")
-                    if navigation is not None and navigation.status >= 500:
-                        raise NavigationError(f"{url} returned HTTP {navigation.status}")
-                return await pending.value
+            async def operation() -> Mapping[str, Any]:
+                navigation = await page.goto(url, wait_until="domcontentloaded")
+                if navigation is not None and navigation.status >= 500:
+                    raise NavigationError(f"{url} returned HTTP {navigation.status}")
 
-            response = await self.session.run(
-                operation, operation_name="safarmarket_search", url=url
-            )
-            if response.status >= 400:
-                raise NavigationError(f"{endpoint} returned HTTP {response.status}")
-            payload: object = await response.json()
-            if not isinstance(payload, Mapping):
-                raise LayoutChangedError(f"Safarmarket {endpoint} returned non-object JSON")
-            return payload
+                timeout_seconds = self.config.navigation_timeout_ms / 1000
+                deadline = asyncio.get_running_loop().time() + timeout_seconds
+                matches = 0
+                while True:
+                    remaining = deadline - asyncio.get_running_loop().time()
+                    if remaining <= 0:
+                        break
+                    try:
+                        response = await asyncio.wait_for(responses.get(), timeout=remaining)
+                    except TimeoutError:
+                        break
+                    matches += 1
+                    if response.status >= 400:
+                        raise NavigationError(f"{endpoint} returned HTTP {response.status}")
+                    payload: object = await response.json()
+                    if not isinstance(payload, Mapping):
+                        continue
+                    if accept_payload is None or accept_payload(payload):
+                        return payload
+                raise LayoutChangedError(
+                    f"Safarmarket {endpoint} did not produce its expected JSON contract "
+                    f"after {matches} matching response(s)"
+                )
+
+            return await self.session.run(operation, operation_name="safarmarket_search", url=url)
         finally:
             await page.close()
+
+    @staticmethod
+    def _has_flight_contract(payload: Mapping[str, Any]) -> bool:
+        result = payload.get("result")
+        return isinstance(result, Mapping) and isinstance(result.get("flights"), list)
+
+    @staticmethod
+    def _has_train_contract(payload: Mapping[str, Any]) -> bool:
+        outer = payload.get("payload")
+        result = outer.get("result") if isinstance(outer, Mapping) else None
+        if not isinstance(result, Mapping) or "depArr" not in result:
+            return False
+        return result.get("depArr") is None or isinstance(result.get("depArr"), list)
 
     @classmethod
     def flight_search_url(cls, query: TicketSearchQuery) -> str:

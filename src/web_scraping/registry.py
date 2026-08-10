@@ -12,7 +12,6 @@ from web_scraping.adapters.hamrah_mechanic import HamrahMechanicAdapter
 from web_scraping.adapters.safar724 import Safar724Adapter
 from web_scraping.adapters.safarmarket import SafarmarketAdapter
 from web_scraping.adapters.snappmarket import SnappMarketAdapter
-from web_scraping.adapters.snappshop import SnappShopAdapter
 from web_scraping.adapters.technolife import TechnolifeAdapter
 from web_scraping.adapters.torob import TorobAdapter
 from web_scraping.sources import BaseSource, SourceCategory
@@ -28,7 +27,6 @@ _SOURCES: dict[str, type[BaseSource]] = {
     "safar724": Safar724Adapter,
     "safarmarket": SafarmarketAdapter,
     "snappmarket": SnappMarketAdapter,
-    "snappshop": SnappShopAdapter,
     "technolife": TechnolifeAdapter,
     "torob": TorobAdapter,
 }

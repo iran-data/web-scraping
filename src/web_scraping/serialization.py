@@ -3,14 +3,14 @@
 from __future__ import annotations
 
 from dataclasses import asdict
-from datetime import datetime
+from datetime import date, datetime
 from decimal import Decimal
 from enum import Enum
 from typing import Any
 
 
 def jsonable(value: Any) -> Any:
-    if isinstance(value, (Decimal, datetime)):
+    if isinstance(value, (Decimal, date, datetime)):
         return str(value)
     if isinstance(value, Enum):
         return value.value

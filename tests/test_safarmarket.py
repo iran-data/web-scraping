@@ -4,6 +4,7 @@ import json
 from datetime import date
 from decimal import Decimal
 from pathlib import Path
+from typing import Any, cast
 
 import pytest
 
@@ -17,6 +18,7 @@ from web_scraping import (
     supported_sources,
 )
 from web_scraping.adapters.safarmarket import SafarmarketAdapter
+from web_scraping.browser import BrowserSession
 from web_scraping.exceptions import LayoutChangedError
 
 FIXTURES = Path(__file__).parent / "fixtures" / "safarmarket"
@@ -108,6 +110,27 @@ def test_parsers_report_layout_changes() -> None:
 
 
 @pytest.mark.asyncio
+async def test_train_no_inventory_is_a_valid_empty_result(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    source = SafarmarketAdapter()
+    payload = {
+        "code": 189,
+        "payload": {"result": {"sid": 1, "depArr": None}},
+        "secondary_message": "No trains found",
+    }
+
+    async def fake_capture(*_: object, **__: object) -> dict[str, object]:
+        return payload
+
+    monkeypatch.setattr(source, "_capture_json", fake_capture)
+    result = await source.search_trains(query(TransportMode.TRAIN))
+    assert result.items == ()
+    assert result.total == 0
+    assert source._has_train_contract(payload)
+
+
+@pytest.mark.asyncio
 async def test_search_dispatches_by_mode(monkeypatch: pytest.MonkeyPatch) -> None:
     source = SafarmarketAdapter()
     called: list[TransportMode] = []
@@ -119,3 +142,60 @@ async def test_search_dispatches_by_mode(monkeypatch: pytest.MonkeyPatch) -> Non
     monkeypatch.setattr(source, "search_flights", fake_search)
     await source.search_tickets(query(TransportMode.FLIGHT))
     assert called == [TransportMode.FLIGHT]
+
+
+@pytest.mark.asyncio
+async def test_capture_ignores_incomplete_response_before_valid_contract() -> None:
+    valid = {"payload": {"result": {"depArr": []}}}
+
+    class FakeResponse:
+        url = "https://safarmarket.com/api/train/v2/search"
+        status = 200
+
+        def __init__(self, payload: object) -> None:
+            self.payload = payload
+
+        async def json(self) -> object:
+            return self.payload
+
+    class FakeNavigation:
+        status = 200
+
+    class FakePage:
+        def __init__(self) -> None:
+            self.callback: Any = None
+            self.closed = False
+
+        def on(self, event: str, callback: Any) -> None:
+            assert event == "response"
+            self.callback = callback
+
+        async def goto(self, url: str, *, wait_until: str) -> FakeNavigation:
+            assert wait_until == "domcontentloaded"
+            assert url.startswith("https://safarmarket.com/trains/")
+            self.callback(FakeResponse({"payload": {"result": None}}))
+            self.callback(FakeResponse(valid))
+            return FakeNavigation()
+
+        async def close(self) -> None:
+            self.closed = True
+
+    class FakeSession:
+        def __init__(self) -> None:
+            self.page = FakePage()
+
+        async def new_page(self) -> FakePage:
+            return self.page
+
+        async def run(self, operation: Any, **_: object) -> object:
+            return await operation()
+
+    session = FakeSession()
+    source = SafarmarketAdapter(session=cast(BrowserSession, session))
+    payload = await source._capture_json(
+        source.train_search_url(query(TransportMode.TRAIN)),
+        "/api/train/v2/search",
+        accept_payload=source._has_train_contract,
+    )
+    assert payload == valid
+    assert session.page.closed

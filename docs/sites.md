@@ -56,12 +56,6 @@ Inspection date: 2026-07-30. The JSON reports in `docs/inspections/` were produc
   `UnsupportedFeatureError` instead of being silently ignored.
 - No CAPTCHA was observed in the exercised search and product flows.
 
-## Snapp Shop
-
-- The inspected search request returned HTTP 403, consistent with an edge bot challenge.
-- Use visible mode for manual completion and save storage state. Automated solving is not
-  implemented.
-
 ## Torob
 
 - Search convention: `/search/?query=...`; the first-party API is

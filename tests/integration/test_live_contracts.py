@@ -24,7 +24,6 @@ class LiveCase:
     keyword: str
 
 
-# Snapp Shop is intentionally excluded while its public flow returns HTTP 403.
 LIVE_CASES = (
     LiveCase("digikala", "گوشی"),
     LiveCase("technolife", "گوشی"),
@@ -134,11 +133,11 @@ async def test_live_bama_reference_price_contract() -> None:
 
 @pytest.mark.integration
 @pytest.mark.parametrize(
-    ("source_name", "mode", "origin", "destination"),
+    ("source_name", "mode", "origin", "destination", "days_ahead"),
     [
-        ("safarmarket", TransportMode.FLIGHT, "THR", "MHD"),
-        ("safarmarket", TransportMode.TRAIN, "1", "2"),
-        ("safar724", TransportMode.BUS, "11320000", "31310000"),
+        ("safarmarket", TransportMode.FLIGHT, "THR", "MHD", 14),
+        ("safarmarket", TransportMode.TRAIN, "1", "2", 14),
+        ("safar724", TransportMode.BUS, "11320000", "31310000", 3),
     ],
 )
 async def test_live_transportation_ticket_contract(
@@ -146,6 +145,7 @@ async def test_live_transportation_ticket_contract(
     mode: TransportMode,
     origin: str,
     destination: str,
+    days_ahead: int,
 ) -> None:
     if os.getenv("LIVE_SITE") not in {"all", source_name}:
         pytest.skip(f"set LIVE_SITE=all or LIVE_SITE={source_name}")
@@ -166,14 +166,13 @@ async def test_live_transportation_ticket_contract(
         mode=mode,
         origin=origin,
         destination=destination,
-        departure_date=(datetime.now(UTC) + timedelta(days=14)).date(),
+        departure_date=(datetime.now(UTC) + timedelta(days=days_ahead)).date(),
     )
     async with source:
         result = await source.search_tickets(query)
 
     assert result.query == query
     assert result.search_url.startswith(f"https://{source_name}.com/")
-    assert result.items
     assert result.total == len(result.items)
     for offer in result.items:
         assert offer.source == source_name
